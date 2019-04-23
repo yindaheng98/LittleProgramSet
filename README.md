@@ -1,0 +1,18 @@
+# 一些小程序
+
+## 这个工程用来集中平时做的一些小程序
+
+## 一个文件夹就是一个小程序
+
+## 文件简略信息如下👇，更加详细的信息请见各个文件夹里的README.md文件
+
+文件夹 | 描述 | 工具和编程语言 | 相关课程
+-|-|-|-
+JFX1 | 一个基于Java的三效蒸发反应模拟器 | Java/JDK11/OpenJFX | Java面向对象编程
+mystery_hack | 对一个可执行程序的反编译和破解 | C++/IDA | 信息安全
+LittleServerWithForm | 基于C#和Socket的多线程HTML服务器 | C# | 计算机网络
+ThreadWitnForm | 操作系统进程调度模拟器 | C#/C++ | 操作系统
+PriorityWorkWithForm | 操作系统作业调度模拟器 | C#/C++ | 操作系统
+StorageWithForm | 内存地址转换模拟器 | C# | 操作系统
+FileTree | 树形文件系统模拟器 | C# | 操作系统
+BankWithForm | 银行家算法资源调度模拟器 | C# | 操作系统
