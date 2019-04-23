@@ -1,0 +1,22 @@
+.valve
+{
+    -fx-background-color: null;
+    -fx-border-radius: 20;
+    -fx-border-color: black;
+    -fx-text-fill: black;
+}
+
+.bucket-background
+{
+    -fx-background-color: dodgerblue;
+    -fx-border-color: black;
+    -fx-fill: dodgerblue;
+    -fx-stroke: black;
+}
+
+.bucket-forward
+{
+    -fx-rotate: 180;
+    -fx-fill: gray;
+
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: gray;" stylesheets="@MainPage.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HelloFX.Controllers">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutX="101.0" layoutY="306.0" stroke="BLACK" strokeType="INSIDE" width="24.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutX="282.0" layoutY="306.0" stroke="BLACK" strokeType="INSIDE" width="24.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutX="465.0" layoutY="306.0" stroke="BLACK" strokeType="INSIDE" width="24.0" />
+      <Rectangle height="240.0" layoutX="417.0" layoutY="66.0" styleClass="bucket-background" width="120.0" />
+      <Rectangle height="240.0" layoutX="234.0" layoutY="66.0" styleClass="bucket-background" width="120.0" />
+      <Rectangle height="240.0" layoutX="53.0" layoutY="66.0" styleClass="bucket-background" width="120.0" />
+        <Button alignment="BOTTOM_CENTER" layoutX="101.0" layoutY="323.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="9.0" styleClass="valve" text="*" />
+      <Button alignment="BOTTOM_CENTER" layoutX="282.0" layoutY="323.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="9.0" styleClass="valve" text="*" />
+      <Button alignment="BOTTOM_CENTER" layoutX="465.0" layoutY="323.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="9.0" styleClass="valve" text="*" />
+      <Button alignment="BOTTOM_CENTER" layoutX="553.0" layoutY="171.0" mnemonicParsing="false" onAction="#valveValueChange" prefHeight="23.0" prefWidth="9.0" styleClass="valve" text="*" />
+      <Rectangle fx:id="liquidRectangle3" height="240.0" layoutX="53.0" layoutY="66.0" styleClass="bucket-forward" width="120.0" />
+      <Rectangle fx:id="liquidRectangle2" height="240.0" layoutX="234.0" layoutY="66.0" styleClass="bucket-forward" width="120.0" />
+      <Rectangle fx:id="liquidRectangle1" height="240.0" layoutX="417.0" layoutY="66.0" styleClass="bucket-forward" width="120.0" />
+      <Button alignment="BOTTOM_CENTER" layoutX="12.0" layoutY="171.0" mnemonicParsing="false" onAction="#valveValueChange" prefHeight="23.0" prefWidth="9.0" styleClass="valve" text="*" />
+      <Slider fx:id="valveSliderp" layoutX="17.0" layoutY="210.0" orientation="VERTICAL" />
+      <Slider fx:id="valveSliderh" layoutX="558.0" layoutY="210.0" orientation="VERTICAL" />
+      <Text fx:id="flowNum3" layoutX="125.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+      <Text layoutX="125.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="流量" />
+      <Text fx:id="flowNum2" layoutX="306.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+      <Text layoutX="306.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="流量" />
+      <Text fx:id="flowNum1" layoutX="489.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+      <Text layoutX="489.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="流量" />
+      <Text fx:id="p3Text" layoutX="53.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="p=0" />
+      <Text fx:id="h3Text" layoutX="53.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="h=0" />
+      <Text fx:id="p2Text" layoutX="233.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="p=0" />
+      <Text fx:id="p1Text" layoutX="417.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="p=0" />
+      <Text fx:id="h2Text" layoutX="233.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="h=0" />
+      <Text fx:id="h1Text" layoutX="417.0" layoutY="323.0" strokeType="OUTSIDE" strokeWidth="0.0" text="h=0" />
+      <Line fx:id="lPath32" endX="-431.83331298828125" layoutX="477.0" layoutY="381.0" stroke="#0095ff" />
+      <Line fx:id="lPath33" endY="-289.66668701171875" layoutX="46.0" layoutY="380.0" stroke="#0095ff" />
+      <Line fx:id="pPath31" endY="-93.0" layoutX="24.0" layoutY="171.0" stroke="RED" />
+      <Line fx:id="pPath32" endX="28.5" layoutX="24.0" layoutY="78.0" stroke="RED" />
+      <Line fx:id="lPath22" endX="90.33332824707031" layoutX="113.0" layoutY="360.0" stroke="#0095ff" />
+      <Line fx:id="lPath23" endY="-330.6666564941406" layoutX="204.0" layoutY="360.0" stroke="#0095ff" />
+      <Line fx:id="lPath24" endX="88.50003051757812" layoutX="205.0" layoutY="29.0" stroke="#0095ff" />
+      <Line fx:id="lPath25" endY="36.999996185302734" layoutX="294.0" layoutY="29.0" stroke="#0095ff" />
+      <Line fx:id="lPath21" endY="11.499969482421875" layoutX="113.0" layoutY="349.0" stroke="#0095ff" />
+      <Line fx:id="lPath11" endY="-142.4595489501953" layoutX="565.0" layoutY="171.0" stroke="#0095ff" />
+      <Line fx:id="lPath12" endX="-88.49996948242188" layoutX="565.0" layoutY="27.0" stroke="#0095ff" />
+      <Line fx:id="lPath13" endY="37.99999237060547" layoutX="477.0" layoutY="28.0" stroke="#0095ff" />
+      <Line fx:id="pPath21" endX="60.0" layoutX="174.0" layoutY="98.0" stroke="RED" />
+      <Line fx:id="lPath34" endX="6.999988555908203" layoutX="46.0" layoutY="90.0" stroke="#0095ff" />
+      <Line fx:id="lPath31" endY="33.499969482421875" layoutX="477.0" layoutY="347.0" stroke="#0095ff" />
+      <Line fx:id="lPath0a" endX="-335.9999694824219" endY="28.333343505859375" layoutX="630.0" layoutY="333.0" startX="-335.9999694824219" startY="15.33331298828125" stroke="#0095ff" />
+      <Line fx:id="lPath0b" endX="-253.49996948242188" endY="1.8333377838134766" layoutX="592.0" layoutY="361.0" startX="-344.66668701171875" startY="1.8333377838134766" stroke="#0095ff" />
+      <Polyline fx:id="pArrow3" fill="RED" layoutX="24.0" layoutY="129.0" points="0, -5, 3, 5, -3, 5, 0, -5" stroke="RED" strokeType="INSIDE" />
+      <Polyline fx:id="pArrow2" fill="RED" layoutX="185.0" layoutY="98.0" points="0, -5, 3, 5, -3, 5, 0, -5" rotate="90.0" stroke="RED" strokeType="INSIDE" />
+      <Polyline fx:id="pArrow1" fill="RED" layoutX="367.0" layoutY="98.0" points="0, -5, 3, 5, -3, 5, 0, -5" rotate="90.0" stroke="RED" strokeType="INSIDE" />
+      <Polyline fx:id="lArrow3" fill="#0095ff" layoutX="477.0" layoutY="359.0" points="0, -5, 3, 5, -3, 5, 0, -5" rotate="180.0" stroke="#0095ff" strokeType="INSIDE" />
+      <Polyline fx:id="lArrow2" fill="#0095ff" layoutX="113.0" layoutY="355.0" points="0, -5, 3, 5, -3, 5, 0, -5" rotate="180.0" stroke="#0095ff" strokeType="INSIDE" />
+      <Polyline fx:id="lArrow1" fill="#0095ff" layoutX="565.0" layoutY="156.0" points="0, -5, 3, 5, -3, 5, 0, -5" stroke="#0095ff" strokeType="INSIDE" />
+      <Line fx:id="pPath11" endX="60.0" layoutX="356.0" layoutY="98.0" stroke="RED" />
+      <Polyline fx:id="lArrow02" fill="#0095ff" layoutX="313.0" layoutY="363.0" points="0, -5, 3, 5, -3, 5, 0, -5" rotate="90.0" stroke="#0095ff" strokeType="INSIDE" />
+      <Polyline fx:id="lArrow03" fill="#0095ff" layoutX="278.0" layoutY="363.0" points="0, -5, 3, 5, -3, 5, 0, -5" rotate="-90.0" stroke="#0095ff" strokeType="INSIDE" />
+      <Polyline fx:id="lArrow01" fill="#0095ff" layoutX="294.0" layoutY="355.0" points="0, -5, 3, 5, -3, 5, 0, -5" rotate="180.0" stroke="#0095ff" strokeType="INSIDE" />
+      <Text layoutX="301.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="液体回收" />
+      <Text layoutX="245.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="成品" />
+      <Text fx:id="outText1" layoutX="245.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+      <Text fx:id="outText2" layoutX="318.0" layoutY="378.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" />
+    </children>
+</AnchorPane>
