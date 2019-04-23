@@ -1,0 +1,11 @@
+LIBRARY
+
+EXPORTS
+
+SetTimePiece @ 1
+SetCPUMaxtime @ 2
+Init @ 3
+Priority @ 4
+GetPathLength @ 5
+GetResult @ 6
+GetWorkingPath @ 7
