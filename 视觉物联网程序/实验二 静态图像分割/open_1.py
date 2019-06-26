@@ -1,0 +1,22 @@
+import numpy as np
+import cv2
+
+img = cv2.imread('threshold/img5.jpg',cv2.IMREAD_GRAYSCALE)
+w=int(min(img.shape)/200)
+kernel = np.ones((w,w),np.uint8)
+img=cv2.erode(img,kernel,iterations = 1)
+#img=cv2.erode(img,kernel,iterations = 1)
+img=cv2.dilate(img,kernel,iterations = 1)
+img=cv2.dilate(img,kernel,iterations = 1)
+img=cv2.morphologyEx(img,cv2.MORPH_OPEN,kernel)
+img=cv2.dilate(img,kernel,iterations = 1)
+img=cv2.dilate(img,kernel,iterations = 1)
+img=cv2.dilate(img,kernel,iterations = 1)
+img=cv2.dilate(img,kernel,iterations = 1)
+img=cv2.erode(img,kernel,iterations = 1)
+img=cv2.erode(img,kernel,iterations = 1)
+img=cv2.erode(img,kernel,iterations = 1)
+img=cv2.erode(img,kernel,iterations = 1)
+#img=cv2.morphologyEx(img,cv2.MORPH_OPEN,kernel)
+#cv2.imshow('h',img)
+cv2.imwrite('open_1/img5.jpg',img)
