@@ -8,6 +8,7 @@
 
 文件夹 | 描述 | 工具和编程语言 | 相关课程
 -|-|-|-
+流水灯 | 基于uCOS 2.92的STM32流水灯控制程序| keil 4.6/C | 嵌入式系统
 MCM2019 | 数学建模美赛的程序 | Python/OpenCV/Pandas | 数学建模
 MPU6050_Kalman2 | Kalman滤波和PID控制两轮平衡车程序 | Arduino/LEGO | 单片机
 JFX1 | 一个基于Java的三效蒸发反应模拟器 | Java/JDK11/OpenJFX | Java面向对象编程

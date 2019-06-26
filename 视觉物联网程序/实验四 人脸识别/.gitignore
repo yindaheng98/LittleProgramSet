@@ -1,1 +1,3 @@
 *.zip
+sets/*/*.pgm
+news/*/*.pgm
