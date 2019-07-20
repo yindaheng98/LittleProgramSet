@@ -1,0 +1,77 @@
+
+// MainFrm.cpp : CMainFrame 类的实现
+//
+
+#include "stdafx.h"
+#include "GFFViewerSDI v2.h"
+
+#include "MainFrm.h"
+#include"ClassGene.h"
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#endif
+
+// CMainFrame
+
+IMPLEMENT_DYNCREATE(CMainFrame, CFrameWnd)
+
+BEGIN_MESSAGE_MAP(CMainFrame, CFrameWnd)
+	ON_COMMAND(ID_FILE_OPEN, &CMainFrame::OnFileOpen)
+END_MESSAGE_MAP()
+
+// CMainFrame 构造/析构
+
+CMainFrame::CMainFrame()
+{
+	// TODO: 在此添加成员初始化代码
+}
+
+CMainFrame::~CMainFrame()
+{
+}
+
+BOOL CMainFrame::PreCreateWindow(CREATESTRUCT& cs)
+{
+	if( !CFrameWnd::PreCreateWindow(cs) )
+		return FALSE;
+	// TODO: 在此处通过修改
+	//  CREATESTRUCT cs 来修改窗口类或样式
+
+	return TRUE;
+}
+
+// CMainFrame 诊断
+
+#ifdef _DEBUG
+void CMainFrame::AssertValid() const
+{
+	CFrameWnd::AssertValid();
+}
+
+void CMainFrame::Dump(CDumpContext& dc) const
+{
+	CFrameWnd::Dump(dc);
+}
+#endif //_DEBUG
+
+
+// CMainFrame 消息处理程序
+
+
+
+void CMainFrame::OnFileOpen()
+{
+	CString filepath;
+	CFileDialog fdlg(TRUE, _T("gff"), NULL, NULL, _T("文件 (*.gff;)|*.gff||"), NULL);
+	INT_PTR result = fdlg.DoModal();
+	if (result == IDOK)filepath = fdlg.GetPathName();
+	ifstream file(filepath);
+	vector<CDataString>data;
+	do
+	{
+		data.push_back(CDataString(file));
+	} while (!file.eof());
+	extern CGene gene;
+	gene = CGene(data);
+	// TODO: 在此添加命令处理程序代码
+}

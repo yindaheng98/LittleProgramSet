@@ -1,0 +1,311 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\SQList_Demo.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\SQList_Demo.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 SQList_Demo"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "SQList_Demo 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2017",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_SQLIST_DEMO_DIALOG DIALOGEX 0, 0, 536, 275
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "SQList_Demo"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "打开",IDC_OPEN,30,31,50,14
+    PUSHBUTTON      "插入",IDC_INSERT,30,78,50,14
+    CONTROL         "List1",IDC_LIST_ORIG,"SysListView32",WS_BORDER | WS_TABSTOP,220,17,293,117
+    CONTROL         "List2",IDC_LIST_DEAL,"SysListView32",WS_BORDER | WS_TABSTOP,220,145,294,123
+    PUSHBUTTON      "删除",IDC_DEL,30,129,50,14
+    PUSHBUTTON      "清空",IDC_CLEAR,29,174,50,14
+    PUSHBUTTON      "取出此项",IDC_OUT2,29,54,58,14
+END
+
+IDD_INSERT DIALOGEX 0, 0, 125, 146
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "插入"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,7,125,50,14
+    PUSHBUTTON      "取消",IDCANCEL,69,125,50,14
+    COMBOBOX        IDC_COMBO1,44,54,74,53,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,44,7,74,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "起始位置",IDC_STATIC,7,7,35,13
+    EDITTEXT        IDC_EDIT2,44,30,74,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "终止位置",IDC_STATIC,7,30,35,13
+    LTEXT           "类型",IDC_STATIC,7,54,35,13
+    EDITTEXT        IDC_EDIT3,44,77,74,14,ES_AUTOHSCROLL
+    LTEXT           "染色体号",IDC_STATIC,7,77,35,13
+    COMBOBOX        IDC_COMBO2,44,100,74,53,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "正负链",IDC_STATIC,7,100,35,13
+END
+
+IDD_OUT DIALOGEX 0, 0, 121, 67
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,7,31,50,14
+    PUSHBUTTON      "取消",IDCANCEL,63,31,50,14
+    COMBOBOX        IDC_COMBO1,7,7,106,44,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "FileDescription", "SQList_Demo Microsoft 基础类应用程序"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "SQList_Demo"
+            VALUE "LegalCopyright", "版权所有 (C) 2017"
+            VALUE "OriginalFilename", "SQList_Demo.EXE"
+            VALUE "ProductName", "SQList_Demo 应用程序"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_SQLIST_DEMO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 529
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 268
+    END
+
+    IDD_INSERT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 118
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+
+    IDD_OUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 114
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 60
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_SQLIST_DEMO_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_INSERT AFX_DIALOG_LAYOUT
+BEGIN
+    0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 100,
+    0, 0, 0, 100,
+    0, 0, 0, 100,
+    0, 0, 0, 100,
+    0, 0, 0, 100,
+    0, 0, 0, 100,
+    0, 0, 0, 100,
+    0, 0, 0, 0,
+    0, 0, 0, 100
+END
+
+IDD_OUT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_INSERT DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 5, 0
+0x7865, 0x6e6f, "\000" 
+    IDC_COMBO1, 0x403, 4, 0
+0x4443, 0x0053, 
+    IDC_COMBO2, 0x403, 2, 0
+0x002b, 
+    IDC_COMBO2, 0x403, 2, 0
+0x002d, 
+    0
+END
+
+IDD_OUT DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 5, 0
+0x6547, 0x656e, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x7865, 0x6e6f, "\000" 
+    IDC_COMBO1, 0x403, 4, 0
+0x4443, 0x0053, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "关于 SQList_Demo(&A)..."
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\SQList_Demo.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
