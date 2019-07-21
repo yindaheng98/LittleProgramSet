@@ -1,0 +1,135 @@
+﻿namespace TCPclient5
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// 必需的设计器变量。
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// 清理所有正在使用的资源。
+        /// </summary>
+        /// <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows 窗体设计器生成的代码
+
+        /// <summary>
+        /// 设计器支持所需的方法 - 不要修改
+        /// 使用代码编辑器修改此方法的内容。
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.textBoxIP = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBoxRecv = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.buttonConnect = new System.Windows.Forms.Button();
+            this.buttonExit = new System.Windows.Forms.Button();
+            this.buttonRecv = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // textBoxIP
+            // 
+            this.textBoxIP.Location = new System.Drawing.Point(81, 10);
+            this.textBoxIP.Name = "textBoxIP";
+            this.textBoxIP.Size = new System.Drawing.Size(595, 28);
+            this.textBoxIP.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(13, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(62, 18);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "IP地址";
+            // 
+            // textBoxRecv
+            // 
+            this.textBoxRecv.Location = new System.Drawing.Point(81, 117);
+            this.textBoxRecv.Name = "textBoxRecv";
+            this.textBoxRecv.ReadOnly = true;
+            this.textBoxRecv.Size = new System.Drawing.Size(595, 28);
+            this.textBoxRecv.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 120);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(44, 18);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "信息";
+            // 
+            // buttonConnect
+            // 
+            this.buttonConnect.Location = new System.Drawing.Point(16, 44);
+            this.buttonConnect.Name = "buttonConnect";
+            this.buttonConnect.Size = new System.Drawing.Size(660, 67);
+            this.buttonConnect.TabIndex = 4;
+            this.buttonConnect.Text = "连接";
+            this.buttonConnect.UseVisualStyleBackColor = true;
+            this.buttonConnect.Click += new System.EventHandler(this.buttonConnect_Click);
+            // 
+            // buttonExit
+            // 
+            this.buttonExit.Enabled = false;
+            this.buttonExit.Location = new System.Drawing.Point(16, 224);
+            this.buttonExit.Name = "buttonExit";
+            this.buttonExit.Size = new System.Drawing.Size(660, 67);
+            this.buttonExit.TabIndex = 5;
+            this.buttonExit.Text = "退出";
+            this.buttonExit.UseVisualStyleBackColor = true;
+            this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
+            // 
+            // buttonRecv
+            // 
+            this.buttonRecv.Enabled = false;
+            this.buttonRecv.Location = new System.Drawing.Point(16, 151);
+            this.buttonRecv.Name = "buttonRecv";
+            this.buttonRecv.Size = new System.Drawing.Size(660, 67);
+            this.buttonRecv.TabIndex = 6;
+            this.buttonRecv.Text = "接收";
+            this.buttonRecv.UseVisualStyleBackColor = true;
+            this.buttonRecv.Click += new System.EventHandler(this.buttonRecv_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(688, 308);
+            this.Controls.Add(this.buttonRecv);
+            this.Controls.Add(this.buttonExit);
+            this.Controls.Add(this.buttonConnect);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBoxRecv);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBoxIP);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TextBox textBoxIP;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBoxRecv;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button buttonConnect;
+        private System.Windows.Forms.Button buttonExit;
+        private System.Windows.Forms.Button buttonRecv;
+    }
+}
+
