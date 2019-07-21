@@ -25,10 +25,9 @@ FileTree | 树形文件系统模拟器 | C# | 操作系统
 BankWithForm | 银行家算法资源调度模拟器 | C# | 操作系统
 SortTest | 八大排序算法时间复杂度绘制 | MFC | 数据结构
 SDGraph | 基本图算法集锦(最短路径/最小生成树) | MFC | 数据结构
-CalculatorStack.point | 一个带括号和小数点功能的计算器 | MFC | 数据结构
 CalculatorStack | 一个带括号功能的计算器 | MFC | 数据结构
-Calculate1 | 一个计算器 | MFC | C语言
-GFFViewerSDI v2 | 基因测序结果图形浏览器 | MFC | C语言
+Calculate1 | 一个计算器 | MFC | 数据结构
+GFFViewerSDI v2 | 基因测序结果图形浏览器 | MFC | 数据结构
 SQList2_Demo | 基因测序结果文件(gff)编辑器-基于链表 | MFC | 数据结构
 SQList_Demo | 基因测序结果文件(gff)编辑器-基于线性表 | MFC | 数据结构
 DataStruct1 | 基因测序结果文件(gff)浏览器 | MFC | 数据结构
