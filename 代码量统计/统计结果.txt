@@ -1,0 +1,178 @@
+3	:	..\pylifter\Dlltest\dlltest.py
+3	:	..\pylifter\test\test0.py
+4	:	..\MatlabNN\带有偏置的神经网络\activate.m
+4	:	..\MatlabNN\带有偏置的神经网络\NetworkErrors.m
+4	:	..\GFFViewerSDI v2\GFFViewerSDI v2\varible.cpp
+4	:	..\ThreadWitnForm\DLLs\DLLs.h
+5	:	..\MatlabNN\无偏置的神经网络\NetworkCosts.m
+5	:	..\pylifter\BigData\data_read.m
+5	:	..\DataStruct1\DataStruct1\全局变量.cpp
+5	:	..\TreeTest\TreeTest\全局变量.cpp
+6	:	..\MatlabNN\test_func2.m
+6	:	..\MatlabNN\带有偏置的神经网络\layer.m
+6	:	..\MatlabNN\无偏置的神经网络\layer.m
+6	:	..\视觉物联网(其实是数字图像处理课)程序\实验一 图像处理\test1_1.py
+7	:	..\MatlabNN\diff_activate.m
+7	:	..\MatlabNN\无偏置的神经网络\Networkinit.m
+7	:	..\pylifter\recycle\xlsxDraw.py
+7	:	..\代码量统计\综合统计结果.py
+7	:	..\视觉物联网(其实是数字图像处理课)程序\实验二 静态图像分割\add.py
+8	:	..\MatlabNN\无偏置的神经网络\NetworkBackPropagationOnce.m
+8	:	..\视觉物联网(其实是数字图像处理课)程序\实验二 静态图像分割\msrcr_run.m
+9	:	..\MatlabNN\activate.m
+9	:	..\MatlabNN\带有偏置的神经网络\NetworkCalculate.m
+9	:	..\MatlabNN\无偏置的神经网络\NetworkCalculate.m
+10	:	..\MatlabNN\带有偏置的神经网络\Networkinit.m
+10	:	..\视觉物联网(其实是数字图像处理课)程序\实验四 人脸识别\step3_2.m
+10	:	..\代码量统计\部分统计.py
+10	:	..\视觉物联网(其实是数字图像处理课)程序\作业\test.py
+10	:	..\视觉物联网(其实是数字图像处理课)程序\实验二 静态图像分割\R_channel.py
+11	:	..\视觉物联网(其实是数字图像处理课)程序\实验一 图像处理\matlab\Untitled.m
+11	:	..\视觉物联网(其实是数字图像处理课)程序\实验一 图像处理\matlab\Untitled3.m
+11	:	..\视觉物联网(其实是数字图像处理课)程序\实验一 图像处理\matlab\Untitled4.m
+11	:	..\视觉物联网(其实是数字图像处理课)程序\实验四 人脸识别\step3.m
+11	:	..\pylifter\recycle\ReadData_sqlalchemy.py
+12	:	..\视觉物联网(其实是数字图像处理课)程序\实验二 静态图像分割\equalizeHist.py
+13	:	..\MatlabNN\test_func.m
+13	:	..\pylifter\BigData\data_deal.m
+13	:	..\视觉物联网(其实是数字图像处理课)程序\实验四 人脸识别\classify.m
+15	:	..\MatlabNN\test_script_continue.m
+15	:	..\pylifter\recycle\RecordToTable.py
+15	:	..\视觉物联网(其实是数字图像处理课)程序\实验二 静态图像分割\open_2.py
+15	:	..\JlifterSimulater\src\MyLifter.java
+16	:	..\pylifter\recycle\xlsxDrawData.py
+16	:	..\JlifterSimulater\src\Jlifter\Conditions.java
+17	:	..\视觉物联网(其实是数字图像处理课)程序\实验四 人脸识别\step3_1.m
+17	:	..\GFFViewerSDI v2\GFFViewerSDI v2\CDataString.h
+18	:	..\pylifter\BigData\data_classify.m
+18	:	..\JFX1\src\main\java\HelloFX\Main.java
+18	:	..\JlifterSimulater\src\Jlifter\Order.java
+19	:	..\视觉物联网(其实是数字图像处理课)程序\实验一 图像处理\matlab\Untitled2.m
+19	:	..\pylifter\main.py
+19	:	..\视觉物联网(其实是数字图像处理课)程序\实验二 静态图像分割\drop_center.py
+19	:	..\PriorityWorkWithForm\PriorityDll\dllmain.cpp
+19	:	..\ThreadWitnForm\DLLs\dllmain.cpp
+19	:	..\FileTree\FileTree\Program.cs
+19	:	..\TCPIP实验课程序集\TCPclient5\TCPclient5\Program.cs
+20	:	..\视觉物联网(其实是数字图像处理课)程序\实验四 人脸识别\accurancy.m
+20	:	..\视觉物联网(其实是数字图像处理课)程序\实验四 人脸识别\stepstep.m
+20	:	..\pylifter\recycle\exceltest.py
+20	:	..\视觉物联网(其实是数字图像处理课)程序\实验二 静态图像分割\kmeans.py
+21	:	..\视觉物联网(其实是数字图像处理课)程序\实验四 人脸识别\step1.m
+21	:	..\视觉物联网(其实是数字图像处理课)程序\实验四 人脸识别\test.m
+21	:	..\pylifter\recycle\xlxsDatetimeToTuple.py
+21	:	..\视觉物联网(其实是数字图像处理课)程序\实验一 图像处理\test.py
+21	:	..\视觉物联网(其实是数字图像处理课)程序\实验二 静态图像分割\drop_2.py
+21	:	..\视觉物联网(其实是数字图像处理课)程序\实验二 静态图像分割\open_1.py
+21	:	..\PriorityWorkWithForm\PriorityDll\PriorityDll.h
+22	:	..\视觉物联网(其实是数字图像处理课)程序\实验二 静态图像分割\drop_1.py
+22	:	..\DataStruct1\DataStruct1\CDataString.h
+24	:	..\视觉物联网(其实是数字图像处理课)程序\实验四 人脸识别\step.m
+25	:	..\TCPIP实验课程序集\TCPserver5\TCPserver5\Program.cs
+26	:	..\MCM2019\grid.py
+26	:	..\pylifter\Custom.py
+26	:	..\代码量统计\查找全部文件.py
+26	:	..\代码量统计\统计程序文件.py
+26	:	..\视觉物联网(其实是数字图像处理课)程序\实验三 动态视觉标签定位（运动目标分割）\frame.py
+26	:	..\SortTest\SortTest\MergeSort.h
+27	:	..\pylifter\recycle\xlsxReadData.py
+27	:	..\SDGraph\SDGraph\全局变量.cpp
+28	:	..\pylifter\BigData\act.m
+28	:	..\pylifter\BigData\acts.m
+28	:	..\pylifter\recycle\SQLtest_v2.py
+29	:	..\MatlabNN\test_script2.m
+29	:	..\pylifter\recycle\SQLtest_v2.1.py
+30	:	..\视觉物联网(其实是数字图像处理课)程序\实验二 静态图像分割\threshold.py
+31	:	..\MatlabNN\test_script.m
+31	:	..\视觉物联网(其实是数字图像处理课)程序\实验三 动态视觉标签定位（运动目标分割）\single_gaussians.m
+31	:	..\算法实验课程序集\alg3\alg3\alg3.cpp
+32	:	..\pylifter\BigData\data_select.m
+32	:	..\Calculate1\Calculate1\Calculate1.h
+32	:	..\CalculatorStack\CalculatorStack\CalculatorStack.h
+32	:	..\DataStruct1\DataStruct1\DataStruct1.h
+32	:	..\GFFViewerSDI v2\GFFViewerSDI v2\GFFViewerSDI v2.h
+32	:	..\SDGraph\SDGraph\SDGraph.h
+32	:	..\SortTest\SortTest\SortTest.h
+32	:	..\TreeTest\TreeTest\TreeTest.h
+32	:	..\FileTree\FileTree\GlobalClass.cs
+34	:	..\视觉物联网(其实是数字图像处理课)程序\实验四 人脸识别\setdivi.m
+34	:	..\MCM2019\grid_main.py
+35	:	..\MatlabNN\无偏置的神经网络\NetworkBackPropagation.m
+35	:	..\视觉物联网(其实是数字图像处理课)程序\实验三 动态视觉标签定位（运动目标分割）\帧差.py
+35	:	..\视觉物联网(其实是数字图像处理课)程序\实验二 静态图像分割\point_to.py
+35	:	..\SortTest\SortTest\SelectSort.h
+35	:	..\TCPIP实验课程序集\TCP7\TCP7\ping.h
+36	:	..\pylifter\CreateTable.py
+36	:	..\SortTest\SortTest\绘图函数.cpp
+37	:	..\视觉物联网(其实是数字图像处理课)程序\实验四 人脸识别\step2.m
+37	:	..\pylifter\test\test.py
+37	:	..\Feistel\Feistel\Feistel.cpp
+38	:	..\视觉物联网(其实是数字图像处理课)程序\实验三 动态视觉标签定位（运动目标分割）\时间平均.py
+40	:	..\视觉物联网(其实是数字图像处理课)程序\实验四 人脸识别\train.m
+40	:	..\JlifterSimulater\src\MySimulator_FCFStest.java
+40	:	..\TCPIP实验课程序集\UDPclient\TCPclient\TCPclient.cpp
+42	:	..\MCM2019\grid_roadfill.py
+44	:	..\MatlabNN\test_script_movie.m
+47	:	..\算法实验课程序集\alg2\alg2\alg2.cpp
+49	:	..\TCPIP实验课程序集\TCP6\TCP6\TCP6.cpp
+49	:	..\TCPIP实验课程序集\UDPserver\TCPserver\TCPserver.cpp
+53	:	..\视觉物联网(其实是数字图像处理课)程序\作业\main.py
+54	:	..\MatlabNN\test_script_graph.m
+55	:	..\视觉物联网(其实是数字图像处理课)程序\实验一 图像处理\funs.py
+55	:	..\SortTest\SortTest\源.cpp
+55	:	..\TreeTest\TreeTest\CDataString.h
+58	:	..\视觉物联网(其实是数字图像处理课)程序\实验二 静态图像分割\msrcr.m
+60	:	..\TCPIP实验课程序集\TCPclient1\TCPclient\TCPclient.cpp
+63	:	..\视觉物联网(其实是数字图像处理课)程序\实验二 静态图像分割\bias.py
+64	:	..\流水灯\Users\Src\main.c
+65	:	..\mystery_hack\mystery_hack\mystery_hack.cpp
+67	:	..\TCPIP实验课程序集\TCPclient\TCPclient\TCPclient.cpp
+69	:	..\pylifter\ReadData.py
+69	:	..\JlifterSimulater\src\Main.java
+70	:	..\视觉物联网(其实是数字图像处理课)程序\实验一 图像处理\test1_2.py
+71	:	..\视觉物联网(其实是数字图像处理课)程序\作业\RGB.py
+72	:	..\pylifter\encode.py
+72	:	..\算法实验课程序集\alg4-1\alg4-1\alg4-1.cpp
+73	:	..\视觉物联网(其实是数字图像处理课)程序\作业\HSV.py
+73	:	..\SortTest\SortTest\BubbleSort.h
+74	:	..\算法实验课程序集\alg4\alg4\alg4.cpp
+76	:	..\流水灯\Users\Src\bsp.c
+78	:	..\SortTest\SortTest\InsertSort.h
+78	:	..\TCPIP实验课程序集\TCPserver1\TCPserver\TCPserver.cpp
+80	:	..\TCPIP实验课程序集\UDPserver1\TCPserver\TCPserver.cpp
+81	:	..\pylifter\decode.py
+81	:	..\TCPIP实验课程序集\TCPserver\TCPserver\TCPserver.cpp
+87	:	..\Calculate1\Calculate1\Calculate1.cpp
+87	:	..\TCPIP实验课程序集\UDPclient1\TCPclient\TCPclient.cpp
+91	:	..\视觉物联网(其实是数字图像处理课)程序\实验四 人脸识别\test.py
+100	:	..\MCM2019\length.py
+101	:	..\TreeTest\TreeTest\TreeTest.cpp
+104	:	..\CalculatorStack\CalculatorStack\CalculatorStack.cpp
+105	:	..\JlifterSimulater\src\Jlifter\Jlifter_simulator.java
+108	:	..\DataStruct1\DataStruct1\DataStruct1.cpp
+114	:	..\视觉物联网(其实是数字图像处理课)程序\实验一 图像处理\test3_1.py
+116	:	..\代码量统计\查找程序文件.py
+117	:	..\视觉物联网(其实是数字图像处理课)程序\实验一 图像处理\test2_1.py
+117	:	..\流水灯\Users\Src\app_hooks.c
+124	:	..\pylifter\DrawData.py
+124	:	..\FileTree\FileTree\FileSystem.cs
+154	:	..\SortTest\SortTest\SortTest.cpp
+160	:	..\CalculatorStack\CalculatorStack\calculatorCore.h
+161	:	..\视觉物联网(其实是数字图像处理课)程序\实验三 动态视觉标签定位（运动目标分割）\mixture_gaussians.m
+164	:	..\SDGraph\SDGraph\SDGraph.cpp
+173	:	..\FileTree\FileTree\File.cs
+178	:	..\MatlabNN\Network2.m
+179	:	..\ThreadWitnForm\DLLs\DLLs.cpp
+185	:	..\GFFViewerSDI v2\GFFViewerSDI v2\GFFViewerSDI v2.cpp
+196	:	..\TCPIP实验课程序集\TCP7\TCP7\TCP7.cpp
+204	:	..\MatlabNN\Network.m
+217	:	..\JlifterSimulater\src\Jlifter\Jlifter.java
+217	:	..\PriorityWorkWithForm\PriorityDll\PriorityDll.cpp
+224	:	..\JlifterSimulater\disabled\Jlifter.java
+236	:	..\TreeTest\TreeTest\CGene.h
+245	:	..\pylifter\LifterClass.py
+270	:	..\JFX1\src\main\java\HelloFX\Controllers.java
+282	:	..\GFFViewerSDI v2\GFFViewerSDI v2\ClassGene.h
+306	:	..\JlifterSimulater\src\Jlifter\Jlifter_basic.java
+347	:	..\MCM2019\Pack1_simple.py
+407	:	..\SDGraph\SDGraph\CGraph.h
