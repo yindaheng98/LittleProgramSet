@@ -1,1 +1,0 @@
-SELECT DISTINCT 姓名 FROM hospital.bcm原始数据 ORDER BY 姓名;

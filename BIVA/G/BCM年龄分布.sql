@@ -1,3 +1,0 @@
-SELECT T.年龄,COUNT(DISTINCT(T.姓名)) AS 数量 FROM
-(SELECT DISTINCT ROUND(abs(TIMESTAMPDIFF(DAY, 出生日期, 检测日期))/365) AS 年龄,姓名 FROM hospital.bcm原始数据)AS T
-GROUP BY T.年龄

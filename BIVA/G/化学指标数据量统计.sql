@@ -1,1 +1,0 @@
-SELECT DISTINCT 成分,COUNT(*) AS 数据量 FROM hospital.血液成分原始数据 GROUP BY 成分;
