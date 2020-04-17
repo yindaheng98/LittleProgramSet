@@ -1,0 +1,1 @@
+SELECT MIN(时间) AS 最早检测时间,MAX(时间) AS 最晚检测时间 FROM hospital.血液成分原始数据;
