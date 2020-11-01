@@ -8,6 +8,7 @@
 
 文件夹 | 描述 | 工具和编程语言 | 相关课程
 -|-|-|-
+简易爬虫集 | 一些简简单单的爬虫 | python | Just for fun😄和上网课😟
 代码量统计 | python写的代码量统计小程序 | python | Just for fun😄
 流水灯 | 基于uCOS 2.92的STM32流水灯控制程序| keil 4.6/C | 嵌入式系统
 MCM2019 | 数学建模美赛的程序 | Python/OpenCV/Pandas | 数学建模
