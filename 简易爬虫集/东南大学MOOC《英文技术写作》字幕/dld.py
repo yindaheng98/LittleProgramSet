@@ -32,7 +32,17 @@ urlss = [["http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=1AC4C5053
          ["http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=ABAA903E494171794AD382FA77886C7A-1573658532898",
           "http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=996A770F3F6A27214726DCA4A76085BC-1572790203323",
           "http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=BC0043F5BD529807AE723950CE09FBA7-1572790264861",
-          "http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=9A12CEBC0C0E309590B9FF85B87FDCA7-1572790310733"]]
+          "http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=9A12CEBC0C0E309590B9FF85B87FDCA7-1572790310733"],
+
+         ["http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=6E1480B5ADB7D5613679F42D06F69F1B-1573530478632",
+          "http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=399F492E54B993F0F0B81DEFC42CB6DC-1574138197994",
+          "http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=59137F0BEBAA4368845C73B91D66CBBA-1573529272729",
+          "http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=3340CDD98838FF0CED61C68CD6F853DE-1573528709967"],
+
+         ["http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=CCB38FC528FE30C9F274D16DF0774207-1573996494374",
+          "http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=F0EC7086A08783573A792142AAF40644-1573996608530",
+          "http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=CB9FDFDC2207DAF1B90E75D994FBB063-1573996648786",
+          "http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=3F2D5AFFF4C306E3E7529093FA73C8F0-1573996712515"]]
 
 txtss = ""
 for i, urls in enumerate(urlss):
