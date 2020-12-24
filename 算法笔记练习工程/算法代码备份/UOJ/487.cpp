@@ -15,7 +15,7 @@ using std::map;
 using std::pair;
 using std::string;
 
-vector<int> Dijkstra(int i, vector<vector<int>>E)
+vector<int> DFS(int i, vector<vector<int>>E, vector<bool>ok)
 {
 	if (i == E.size() - 1)
 	{
@@ -44,10 +44,12 @@ vector<int> Dijkstra(int i, vector<vector<int>>E)
 
 vector<int>getPath(vector<vector<int>>E)
 {
-	return Dijkstra(0, E);
+	vector<bool>ok(E.size());
+	ok[0] = true;
+	return DFS(0, E, ok);
 }
 
-int MCMF(vector<vector<int>>E, vector<vector<int>>C)
+int MCMF(vector<vector<int>>E)
 {
 	for (int i = 0; i < E.size(); i++)
 	{
@@ -68,13 +70,10 @@ int MCMF(vector<vector<int>>E, vector<vector<int>>C)
 		}
 		p = getPath(E);
 	}
-	int sum = 0,cost = 0;
+	int sum = 0;
 	for (int i = 0; i < E.size(); i++)
-	{
 		sum += E[E.size() - 1][i];
-		cos += 
-	}
-	return sum,cos;
+	return sum;
 }
 
 int translate(int k, int s, int t, int N)
@@ -97,13 +96,13 @@ int main()
 	for (int i = 0; i < M; i++)
 	{
 		int f, d, cap, cost;
-		cin >> f >> d >> cap >> cost;
+		cin >> f >> d >> cap>> cost;
 		f = translate(f, s, t, N);
 		d = translate(d, s, t, N);
 		E[f][d] = cap;
 		C[f][d] = cost;
 	}
-	cout << MCMF(E, C) << endl;
+	cout << MCMF(E) << endl;
 	system("pause");
 	return 0;
 }

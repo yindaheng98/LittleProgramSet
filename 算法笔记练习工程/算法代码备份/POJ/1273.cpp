@@ -42,11 +42,21 @@ vector<int> DFS(int i, vector<vector<int>>E, vector<bool>ok)
 	return vector<int>(0);
 }
 
+vector<int>getPath(vector<vector<int>>E)
+{
+	vector<bool>ok(E.size());
+	ok[0] = true;
+	return DFS(0, E, ok);
+}
+
 int MaxFlow(vector<vector<int>>E)
 {
 	for (int i = 0; i < E.size(); i++)
+	{
 		E[E.size() - 1][i] = 0;
-	vector<int>p = DFS(0, E, vector<bool>(E.size()));
+		E[i][0] = 0;
+	}
+	vector<int>p = getPath(E);
 	while (p.size() > 0)
 	{
 		int maxflow = -1;
@@ -58,7 +68,7 @@ int MaxFlow(vector<vector<int>>E)
 			E[p[i]][p[i + 1]] -= maxflow;
 			E[p[i + 1]][p[i]] += maxflow;
 		}
-		p = DFS(0, E, vector<bool>(E.size()));
+		p = getPath(E);
 	}
 	int sum = 0;
 	for (int i = 0; i < E.size(); i++)
