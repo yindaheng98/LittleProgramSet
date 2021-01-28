@@ -14,21 +14,13 @@ now_str = datetime.now().strftime(dtf)
 def copy_file(finfo, temp_dir, client, bucket):
     fname = finfo['name']
     local_path = temp_dir+"/"+fname
-
-    def callback():
-        print("已经下载%s到%s" % (fname, temp_dir))
-        print("正在上传%s到Aliyun" % fname)
-        bucket.put_object_from_file(fname, local_path)
-        print("已经上传%s到Aliyun" % fname)
-        os.remove(local_path)
-
-    kwargs = {
-        'remote_path': fname,
-        'local_path':  local_path,
-        'callback':    callback
-    }
-    print("正在下载%s到%s" % (fname, temp_dir))
-    client.download_async(**kwargs)
+    print("正在下载%s到%s" % (fname, local_path))
+    client.download_sync(fname, local_path)
+    print("已经下载%s到%s" % (fname, local_path))
+    print("正在上传%s到Aliyun" % local_path)
+    bucket.put_object_from_file(fname, local_path)
+    print("已经上传%s到Aliyun" % local_path)
+    os.remove(local_path)
 
 
 def main():
