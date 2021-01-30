@@ -8,6 +8,7 @@ from datetime import datetime
 import json
 import optparse
 import os
+import time
 dtf = "%Y-%m-%d %H:%M:%S"
 now_str = datetime.now().strftime(dtf)
 logger = logging.getLogger()
@@ -62,6 +63,9 @@ def main():
     parser.add_option('-t', '--temp-dir', dest='temp_dir', type='string',
                       help='临时目录路径',
                       default=os.getcwd())
+    parser.add_option('-d', '--delay', dest='delay', type='int',
+                      help='下载文件的时间间隔（防被封）',
+                      default=0)
     options, _ = parser.parse_args()
     print("正在连接Webdav")
     client = Client(json.loads(options.client_options))
@@ -88,6 +92,7 @@ def main():
             until = datetime.strptime(options.until, dtf)
             if modified >= since and modified <= until:
                 copy_file(finfo, options.temp_dir, client, bucket)
+        time.sleep(options.delay)
 
 
 main()
