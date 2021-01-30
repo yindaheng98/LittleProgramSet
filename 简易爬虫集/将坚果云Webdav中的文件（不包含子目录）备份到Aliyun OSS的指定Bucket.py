@@ -1,6 +1,7 @@
 '''
 将坚果云Webdav中的文件（不包含子目录）备份到Aliyun OSS的指定Bucket
 '''
+import logging
 from webdav3.client import Client
 import oss2
 from datetime import datetime
@@ -9,7 +10,17 @@ import optparse
 import os
 dtf = "%Y-%m-%d %H:%M:%S"
 now_str = datetime.now().strftime(dtf)
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+ch = logging.StreamHandler()
+ch.setLevel(logging.WARNING)
+formatter = logging.Formatter(
+    '%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+ch.setFormatter(formatter)
+logger.addHandler(ch)
 
+def print(s):
+    logger.info(s)
 
 def copy_file(finfo, temp_dir, client, bucket):
     fname = finfo['name']
