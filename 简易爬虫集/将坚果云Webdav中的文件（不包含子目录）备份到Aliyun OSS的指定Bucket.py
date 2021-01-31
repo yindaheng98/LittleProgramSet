@@ -86,13 +86,14 @@ def main():
             continue
         if options.all:
             copy_file(finfo, options.temp_dir, client, bucket)
+            time.sleep(options.delay)
         else:
             modified = datetime.strptime(finfo['modified'], options.dtf)
             since = datetime.strptime(options.since, dtf)
             until = datetime.strptime(options.until, dtf)
             if modified >= since and modified <= until:
                 copy_file(finfo, options.temp_dir, client, bucket)
-        time.sleep(options.delay)
+                time.sleep(options.delay)
 
 
 main()
