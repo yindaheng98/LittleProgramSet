@@ -3,9 +3,9 @@ from Queue import Queue
 import random
 
 '''初始化配置'''
-N = 1000
-_lambda = 1.
-_miu = 1.
+N = 30000
+_lambda = 3.
+_miu = 5.
 n = 3
 
 '''运行时配置'''
@@ -23,3 +23,4 @@ def ArriveCallback(_lambda):
 
 event_loop.setTimeout(0, lambda: ArriveCallback(_lambda))
 event_loop.loopUntil(lambda: N <= 0)
+print("Elq=%f" % q.Elq())
