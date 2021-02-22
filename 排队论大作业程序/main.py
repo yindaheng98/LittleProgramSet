@@ -1,6 +1,9 @@
 from EventLoop import EventLoop
-from Queue import Queue
+from Q import Q
 import random
+from theory import MMn
+import matplotlib.pyplot as plt
+import numpy as np
 
 '''初始化配置'''
 N = 30000
@@ -10,7 +13,7 @@ n = 3
 
 '''运行时配置'''
 event_loop = EventLoop()
-q = Queue(event_loop, _miu, n)
+q = Q(event_loop, _miu, n)
 
 
 def ArriveCallback(_lambda):
@@ -24,3 +27,4 @@ def ArriveCallback(_lambda):
 event_loop.setTimeout(0, lambda: ArriveCallback(_lambda))
 event_loop.loopUntil(lambda: N <= 0)
 print("Elq=%f" % q.Elq())
+print("Elq=%f" % MMn(n, _lambda, _miu))

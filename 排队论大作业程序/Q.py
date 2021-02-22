@@ -7,7 +7,7 @@ def log(tick, queue_length, n, info):
           (tick, queue_length[0], n[0], info, queue_length[1], n[1]))
 
 
-class Queue:
+class Q:
     def __init__(self, event_loop: EventLoop, _miu: float, n: int = 1):
         self.event_loop = event_loop
         self.n = n  # 闲置服务员数量
