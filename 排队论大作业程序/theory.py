@@ -7,5 +7,5 @@ def MMn(n, _lambda, _miu):
             sum([rho ** i / math.factorial(i) for i in range(0, n + 1)]) +
             rho ** (n + 1) / (math.factorial(n) * (n - rho))
     )
-    Elq = (n * rho ** (n + 1) * P0) / (n * math.factorial(n) * (1 - rho / n) ** 2)
+    Elq = (rho ** (n + 1) * P0) / (n * math.factorial(n) * (1 - rho / n) ** 2)
     return Elq
