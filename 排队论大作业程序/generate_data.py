@@ -6,11 +6,11 @@ from nEnM1Simulator import nEnM1Simulator
 from nMM1ShortSimulator import nMM1ShortSimulator
 
 N = 300
-factor_list = list(np.arange(0.1, 1., 0.05))
+rho_list = list(np.arange(0.1, 1., 0.05))
 n_list = list(range(1, 11))
 result = {
     'N': N,
-    'factor_list': factor_list,
+    'rho_list': rho_list,
     'n_list': n_list,
     'result': {},
 }
@@ -23,9 +23,9 @@ for n in n_list:
         'nEnM1': {'simulate': [], 'theory': []},
         'nMM1Short': {'simulate': []},
     }
-    for factor in factor_list:
+    for rho in rho_list:
         _miu = miu
-        _lambda = factor * n * _miu
+        _lambda = rho * _miu
         for name in data:
             simulator = eval(name + "Simulator(_lambda, _miu, n)")
             if not name == 'nMM1Short':
