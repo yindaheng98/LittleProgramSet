@@ -14,12 +14,13 @@ class MMnSimulator:
         self.q = None
         self.N = 0
 
-    def start(self, N):
+    def run(self, N):
         self.event_loop = EventLoop()
         self.q = Q(self.event_loop, self._miu, self.n)
         self.N = N
         self.event_loop.setTimeout(0, lambda: self.__arrive_callback())
         self.event_loop.loopUntil(lambda: self.N <= 0)
+        return self.q.Elq()
 
     def __arrive_callback(self):
         self.N -= 1
@@ -36,9 +37,3 @@ class MMnSimulator:
         )
         Elq = (rho ** (n + 1) * P0) / (n * math.factorial(n) * (1 - rho / n) ** 2)
         return Elq
-
-
-MMn = MMnSimulator(3., 5., 3)
-MMn.start(30000)
-print("Elq=%f" % MMn.q.Elq())
-print("Elq=%f" % MMn.theory())
