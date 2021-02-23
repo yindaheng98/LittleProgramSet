@@ -1,3 +1,4 @@
+import math
 import random
 
 from EventLoop import EventLoop
@@ -6,9 +7,9 @@ from Q import Q
 
 class MMnSimulator:
     def __init__(self, _lambda, _miu, n):
-        self._lambda = _lambda
-        self._miu = _miu
-        self.n = n
+        self._lambda = float(_lambda)
+        self._miu = float(_miu)
+        self.n = int(n)
         self.event_loop = None
         self.q = None
         self.N = 0
@@ -26,7 +27,18 @@ class MMnSimulator:
         self.event_loop.setTimeout(arrive_interval, lambda: self.__arrive_callback())  # 一定时间后再次到达
         self.q.arrive()
 
+    def theory(self):
+        _lambda, _miu, n = self._lambda, self._miu, self.n
+        rho = _lambda / _miu
+        P0 = 1 / (
+                sum([rho ** i / math.factorial(i) for i in range(0, n + 1)]) +
+                rho ** (n + 1) / (math.factorial(n) * (n - rho))
+        )
+        Elq = (rho ** (n + 1) * P0) / (n * math.factorial(n) * (1 - rho / n) ** 2)
+        return Elq
 
-MMn = MMnSimulator(_lambda, _miu, n)
+
+MMn = MMnSimulator(3., 5., 3)
 MMn.start(30000)
 print("Elq=%f" % MMn.q.Elq())
+print("Elq=%f" % MMn.theory())
