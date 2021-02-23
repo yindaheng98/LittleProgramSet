@@ -1,20 +1,35 @@
+import numpy as np
+import json
 from MMnSimulator import MMnSimulator
 from nMM1Simulator import nMM1Simulator
 from nEnM1Simulator import nEnM1Simulator
 from nMM1ShortSimulator import nMM1ShortSimulator
 
-MMn = MMnSimulator(3., 5., 3)
-print("Elq=%f" % MMn.run(30000))
-print("Elq=%f" % MMn.Elq_theory)
+N = 300
+factor_list = list(np.arange(0.1, 1., 0.05))
+n_list = list(range(1, 11))
+result = {
+    'N': N,
+    'factor_list': factor_list,
+    'n_list': n_list,
+    'result': {},
+}
 
-nMM1 = nMM1Simulator(3., 5., 3)
-print("Elq=%f" % nMM1.run(30000))
-print("Elq=%f" % nMM1.Elq_theory)
-
-nEnM1 = nEnM1Simulator(3., 5., 3)
-print("Elq=%f" % nEnM1.run(30000))
-print("Elq=%f" % nEnM1.Elq_theory)
-
-nMM1s = nMM1ShortSimulator(3., 5., 3)
-print("Elq=%f" % nMM1s.run(30000))
-print("Elq=%f" % nMM1s.Elq_theory)
+miu = 1
+for n in n_list:
+    data = {
+        'MMn': {'simulate': [], 'theory': []},
+        'nMM1': {'simulate': [], 'theory': []},
+        'nEnM1': {'simulate': [], 'theory': []},
+        'nMM1Short': {'simulate': [], 'theory': []},
+    }
+    for factor in factor_list:
+        _miu = miu
+        _lambda = factor * n * _miu
+        for name in data:
+            simulator = eval(name + "Simulator(_lambda, _miu, n)")
+            data[name]['theory'].append(simulator.Elq_theory)
+            data[name]['simulate'].append(simulator.run(N))
+    result[n] = data
+with open('./result.%d.json' % N, "w", encoding='UTF-8') as f:
+    json.dump(result, f, indent=4)
