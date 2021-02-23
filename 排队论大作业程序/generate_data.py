@@ -4,7 +4,7 @@ from MMnSimulator import MMnSimulator
 from nMM1Simulator import nMM1Simulator
 from nEnM1Simulator import nEnM1Simulator
 from nMM1ShortSimulator import nMM1ShortSimulator
-from N import N
+from common import N
 
 rho_list = list(np.arange(0.1, 1., 0.05))
 n_list = list(range(1, 11))
@@ -32,5 +32,5 @@ for n in n_list:
                 data[name]['theory'].append(simulator.Elq_theory)
             data[name]['simulate'].append(simulator.run(N))
     result['result'][n] = data
-with open('./result.%d.json' % N, "w", encoding='UTF-8') as f:
+with open('./顾客数量=%d.数据.json' % N, "w", encoding='UTF-8') as f:
     json.dump(result, f, indent=4)

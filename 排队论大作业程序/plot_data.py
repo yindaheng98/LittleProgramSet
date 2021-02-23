@@ -2,7 +2,7 @@ import json
 
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
-from N import N
+from common import N
 
 plt.rcParams['font.sans-serif'] = ['SimHei']
 result = {}
