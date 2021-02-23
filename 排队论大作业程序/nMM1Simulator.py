@@ -33,6 +33,5 @@ class nMM1Simulator:
 
     def __Elq_theory(self):
         _lambda, _miu, n = self._lambda, self._miu, self.n
-        rho = _lambda / _miu
-        Elq = (rho * _lambda) / (n * _miu - _lambda)
-        return Elq
+        Elq = (_lambda / n) ** 2 / (_miu * (_miu - _lambda / n))
+        return Elq * n
