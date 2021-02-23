@@ -5,11 +5,12 @@ from Q import Q
 
 
 class nMM1Simulator:
-    def __init__(self, _lambda, _miu, n):
+    def __init__(self, _lambda, _miu, n, selector=lambda qs: random.randint(0, len(qs) - 1)):
         self._lambda = float(_lambda)
         self._miu = float(_miu)
         self.n = int(n)
         self.Elq_theory = self.__Elq_theory()
+        self.selector = selector
 
         self.event_loop = None
         self.q = []
@@ -29,7 +30,7 @@ class nMM1Simulator:
         self.N -= 1
         arrive_interval = random.expovariate(self._lambda)  # 随机生成到达时间间隔
         self.event_loop.setTimeout(arrive_interval, lambda: self.__arrive_callback())  # 一定时间后再次到达
-        self.q[random.randint(0, self.n - 1)].arrive()
+        self.q[self.selector(self.q)].arrive()
 
     def __Elq_theory(self):
         _lambda, _miu, n = self._lambda, self._miu, self.n
