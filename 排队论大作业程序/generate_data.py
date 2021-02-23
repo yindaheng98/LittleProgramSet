@@ -30,6 +30,6 @@ for n in n_list:
             simulator = eval(name + "Simulator(_lambda, _miu, n)")
             data[name]['theory'].append(simulator.Elq_theory)
             data[name]['simulate'].append(simulator.run(N))
-    result[n] = data
+    result['result'][n] = data
 with open('./result.%d.json' % N, "w", encoding='UTF-8') as f:
     json.dump(result, f, indent=4)
