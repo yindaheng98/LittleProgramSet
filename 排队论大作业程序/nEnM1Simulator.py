@@ -43,6 +43,7 @@ class nEnM1Simulator:
         params = [1.] * self.k
         params.append(-self.k * rho)
         rs = np.roots(params)
-        r = np.real(rs[~np.iscomplex(rs)][0])
+        rs = np.real(rs[~np.iscomplex(rs)])
+        r = np.min(rs[rs >= 0.])
         Elq = (rho * r ** k / (1 - r ** k)) * n
         return Elq

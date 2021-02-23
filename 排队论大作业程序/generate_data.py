@@ -21,14 +21,15 @@ for n in n_list:
         'MMn': {'simulate': [], 'theory': []},
         'nMM1': {'simulate': [], 'theory': []},
         'nEnM1': {'simulate': [], 'theory': []},
-        'nMM1Short': {'simulate': [], 'theory': []},
+        'nMM1Short': {'simulate': []},
     }
     for factor in factor_list:
         _miu = miu
         _lambda = factor * n * _miu
         for name in data:
             simulator = eval(name + "Simulator(_lambda, _miu, n)")
-            data[name]['theory'].append(simulator.Elq_theory)
+            if not name == 'nMM1Short':
+                data[name]['theory'].append(simulator.Elq_theory)
             data[name]['simulate'].append(simulator.run(N))
     result['result'][n] = data
 with open('./result.%d.json' % N, "w", encoding='UTF-8') as f:
