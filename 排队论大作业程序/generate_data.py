@@ -4,8 +4,8 @@ from MMnSimulator import MMnSimulator
 from nMM1Simulator import nMM1Simulator
 from nEnM1Simulator import nEnM1Simulator
 from nMM1ShortSimulator import nMM1ShortSimulator
+from N import N
 
-N = 300
 rho_list = list(np.arange(0.1, 1., 0.05))
 n_list = list(range(1, 11))
 result = {

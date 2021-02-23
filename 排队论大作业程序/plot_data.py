@@ -2,9 +2,9 @@ import json
 
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
+from N import N
 
 plt.rcParams['font.sans-serif'] = ['SimHei']
-N = 300
 result = {}
 with open('./result.%d.json' % N, "r", encoding='UTF-8') as f:
     result = json.load(f)
