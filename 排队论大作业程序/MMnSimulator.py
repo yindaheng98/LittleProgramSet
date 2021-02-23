@@ -10,6 +10,8 @@ class MMnSimulator:
         self._lambda = float(_lambda)
         self._miu = float(_miu)
         self.n = int(n)
+        self.Elq_theory = self.__Elq_theory()
+
         self.event_loop = None
         self.q = None
         self.N = 0
@@ -28,7 +30,7 @@ class MMnSimulator:
         self.event_loop.setTimeout(arrive_interval, lambda: self.__arrive_callback())  # 一定时间后再次到达
         self.q.arrive()
 
-    def theory(self):
+    def __Elq_theory(self):
         _lambda, _miu, n = self._lambda, self._miu, self.n
         rho = _lambda / _miu
         P0 = 1 / (

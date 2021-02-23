@@ -9,6 +9,8 @@ class nMM1Simulator:
         self._lambda = float(_lambda)
         self._miu = float(_miu)
         self.n = int(n)
+        self.Elq_theory = self.__Elq_theory()
+
         self.event_loop = None
         self.q = []
         self.N = 0
@@ -29,7 +31,7 @@ class nMM1Simulator:
         self.event_loop.setTimeout(arrive_interval, lambda: self.__arrive_callback())  # 一定时间后再次到达
         self.q[random.randint(0, self.n - 1)].arrive()
 
-    def theory(self):
+    def __Elq_theory(self):
         _lambda, _miu, n = self._lambda, self._miu, self.n
         rho = _lambda / _miu
         Elq = (rho * _lambda) / (n * _miu - _lambda)
