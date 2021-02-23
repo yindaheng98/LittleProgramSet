@@ -1,18 +1,21 @@
 import json
+import pathlib
 
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
-from common import N
+from common import data_dir, data_path
 
 plt.rcParams['font.sans-serif'] = ['SimHei']
 result = {}
-with open('./result.%d.json' % N, "r", encoding='UTF-8') as f:
+with data_path.open("r", encoding='UTF-8') as f:
     result = json.load(f)
 
 N = result['N']
 rho_list = result['rho_list']
 n_list = result['n_list']
 result = result['result']
+dir_path = pathlib.Path(data_dir, '顾客数量=%d.图像' % N)
+dir_path.mkdir(parents=True, exist_ok=True)
 
 names = {
     'MMn': '$M|M|n$队列',
@@ -33,7 +36,7 @@ colors = {
 x = rho_list
 for n in result:
     data = result[n]
-    fname = 'figure/n=%s的所有队列.png' % n
+    fname = str(dir_path.joinpath('不同模型在n=%s时的图像.png' % n))
     print(fname)
     plt.figure(figsize=(13, 12))
     for model in data:
@@ -54,7 +57,7 @@ for n in result:
 
 colors_n = {str(i + 1): c for i, c in enumerate(list(mcolors.TABLEAU_COLORS))}
 for model in colors:
-    fname = 'figure/%s.png' % names[model].replace('$', "").replace('|', "")
+    fname = str(dir_path.joinpath('%s在不同n值下的图像.png' % names[model].replace('$', "").replace('|', "")))
     print(fname)
     plt.figure(figsize=(13, 12))
     for n in result:
