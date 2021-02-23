@@ -25,7 +25,7 @@ for n in n_list:
     }
     for rho in rho_list:
         _miu = miu
-        _lambda = rho * _miu
+        _lambda = rho * _miu * n
         for name in data:
             simulator = eval(name + "Simulator(_lambda, _miu, n)")
             if not name == 'nMM1Short':

@@ -7,7 +7,7 @@ import numpy as np
 
 class nEnM1Simulator:
     def __init__(self, _lambda, _miu, n):
-        self._lambda = float(_lambda)
+        self._lambda = float(_lambda / n)
         self._miu = float(_miu)
         self.n = int(n)
         self.k = int(n)
