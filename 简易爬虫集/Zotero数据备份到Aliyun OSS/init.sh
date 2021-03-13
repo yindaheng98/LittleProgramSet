@@ -24,7 +24,13 @@ region = global
 token = ${token}
 drive_id = 40f47af77092ccff
 drive_type = personal
+
+[jianguoyun]
+type = webdav
+url = https://dav.jianguoyun.com/dav/
+vendor = other
+user = ${username}
+pass = ${password}
 EOF
 chmod a+x $ROOT/rclone
 EXEC="$ROOT/rclone --config $CONF --log-level INFO"
-$EXEC copy --exclude 'storage/**' onedrive:zotero oss:zotero-backup/database
