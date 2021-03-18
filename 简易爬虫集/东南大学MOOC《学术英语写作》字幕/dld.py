@@ -12,7 +12,13 @@ urlss = [["http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=25B6D427C
           "http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=F2BFA94D8835B966246014EEE1FE2370-1584091460560",
           "http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=AE9E46BCB54FB8EE7402C3E26109007C-1582901142017",
           "http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=8A0DDAFC51729E4699C9EA74C85AC3A6-1582901306739",
-          "http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=ADBA3B4375599347E7A9ABD3D1D8EFE8-1582901407554"]]
+          "http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=ADBA3B4375599347E7A9ABD3D1D8EFE8-1582901407554"],
+
+         ["http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=A415C9C1AFB7C194A41B77E289E8561F-1583416102099",
+          "http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=7D1BEFAA18121C4348592F9564C761DF-1583416260444",
+          "http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=BED1E9642DB8179A7B36721DA54C2EF9-1583416438804",
+          "http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=D1C16F1967EE6A02D269671527FC265F-1583416661778",
+          "http://www.icourse163.org/video/downloadVideoSrt.htm?srcKey=974EA85F9574B0BE45527223A4D14C83-1583416936672"]]
 
 txtss = ""
 for i, urls in enumerate(urlss):
@@ -21,7 +27,7 @@ for i, urls in enumerate(urlss):
         response = requests.get(url)
         txt = response.content.decode('utf8')
         txt = re.sub(r"[0-9]+[\s:,]", "", txt)
-        txt = re.sub(r"\s+-->\s+", "  ", txt)
+        txt = re.sub(r"\s+-->\s+", "\n", txt)
         txts += "\n\n%d.%d\n\n" % (i+1, j+1)+txt
     txtss += txts
     with open(os.path.join(os.path.split(__file__)[0], '学术英语写作字幕%d.txt' % (i+1)), 'w', encoding="utf8") as f:
