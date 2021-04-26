@@ -39,7 +39,7 @@ for i, urls in enumerate(urlss):
         response = requests.get(url)
         txt = response.content.decode('utf8')
         txt = re.sub(r"[0-9]+[\s:,]", "", txt)
-        txt = re.sub(r"\s+-->\s+", "\n", txt)
+        txt = re.sub(r"\s+-->\s+", " ", txt)
         txts += "\n\n%d.%d\n\n" % (i+1, j+1)+txt
     txtss += txts
     with open(os.path.join(os.path.split(__file__)[0], '学术英语写作字幕%d.txt' % (i+1)), 'w', encoding="utf8") as f:
