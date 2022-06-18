@@ -2,7 +2,7 @@
 apt-get install -y unzip
 ROOT=$(pwd)
 TEMP_ZIP=$ROOT/rclone.zip
-wget https://downloads.rclone.org/v1.54.1/rclone-v1.54.1-linux-amd64.zip -O $TEMP_ZIP
+wget --no-check-certificate https://downloads.rclone.org/v1.54.1/rclone-v1.54.1-linux-amd64.zip -O $TEMP_ZIP
 unzip -jo -d $ROOT $TEMP_ZIP
 CONF=$ROOT/rclone.conf
 cat > $CONF << EOF
