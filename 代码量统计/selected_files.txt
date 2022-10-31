@@ -9,43 +9,43 @@
 ..\MatlabNN\test_script_continue.m
 ..\MatlabNN\test_script_graph.m
 ..\MatlabNN\test_script_movie.m
-..\MatlabNN\´øÓÐÆ«ÖÃµÄÉñ¾­ÍøÂç\activate.m
-..\MatlabNN\´øÓÐÆ«ÖÃµÄÉñ¾­ÍøÂç\layer.m
-..\MatlabNN\´øÓÐÆ«ÖÃµÄÉñ¾­ÍøÂç\NetworkCalculate.m
-..\MatlabNN\´øÓÐÆ«ÖÃµÄÉñ¾­ÍøÂç\NetworkErrors.m
-..\MatlabNN\´øÓÐÆ«ÖÃµÄÉñ¾­ÍøÂç\Networkinit.m
-..\MatlabNN\ÎÞÆ«ÖÃµÄÉñ¾­ÍøÂç\layer.m
-..\MatlabNN\ÎÞÆ«ÖÃµÄÉñ¾­ÍøÂç\NetworkBackPropagation.m
-..\MatlabNN\ÎÞÆ«ÖÃµÄÉñ¾­ÍøÂç\NetworkBackPropagationOnce.m
-..\MatlabNN\ÎÞÆ«ÖÃµÄÉñ¾­ÍøÂç\NetworkCalculate.m
-..\MatlabNN\ÎÞÆ«ÖÃµÄÉñ¾­ÍøÂç\NetworkCosts.m
-..\MatlabNN\ÎÞÆ«ÖÃµÄÉñ¾­ÍøÂç\Networkinit.m
+..\MatlabNN\å¸¦æœ‰åç½®çš„ç¥žç»ç½‘ç»œ\activate.m
+..\MatlabNN\å¸¦æœ‰åç½®çš„ç¥žç»ç½‘ç»œ\layer.m
+..\MatlabNN\å¸¦æœ‰åç½®çš„ç¥žç»ç½‘ç»œ\NetworkCalculate.m
+..\MatlabNN\å¸¦æœ‰åç½®çš„ç¥žç»ç½‘ç»œ\NetworkErrors.m
+..\MatlabNN\å¸¦æœ‰åç½®çš„ç¥žç»ç½‘ç»œ\Networkinit.m
+..\MatlabNN\æ— åç½®çš„ç¥žç»ç½‘ç»œ\layer.m
+..\MatlabNN\æ— åç½®çš„ç¥žç»ç½‘ç»œ\NetworkBackPropagation.m
+..\MatlabNN\æ— åç½®çš„ç¥žç»ç½‘ç»œ\NetworkBackPropagationOnce.m
+..\MatlabNN\æ— åç½®çš„ç¥žç»ç½‘ç»œ\NetworkCalculate.m
+..\MatlabNN\æ— åç½®çš„ç¥žç»ç½‘ç»œ\NetworkCosts.m
+..\MatlabNN\æ— åç½®çš„ç¥žç»ç½‘ç»œ\Networkinit.m
 ..\pylifter\BigData\act.m
 ..\pylifter\BigData\acts.m
 ..\pylifter\BigData\data_classify.m
 ..\pylifter\BigData\data_deal.m
 ..\pylifter\BigData\data_read.m
 ..\pylifter\BigData\data_select.m
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéÒ» Í¼Ïñ´¦Àí\matlab\Untitled.m
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéÒ» Í¼Ïñ´¦Àí\matlab\Untitled2.m
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéÒ» Í¼Ïñ´¦Àí\matlab\Untitled3.m
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéÒ» Í¼Ïñ´¦Àí\matlab\Untitled4.m
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéÈý ¶¯Ì¬ÊÓ¾õ±êÇ©¶¨Î»£¨ÔË¶¯Ä¿±ê·Ö¸î£©\mixture_gaussians.m
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéÈý ¶¯Ì¬ÊÓ¾õ±êÇ©¶¨Î»£¨ÔË¶¯Ä¿±ê·Ö¸î£©\single_gaussians.m
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑé¶þ ¾²Ì¬Í¼Ïñ·Ö¸î\msrcr.m
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑé¶þ ¾²Ì¬Í¼Ïñ·Ö¸î\msrcr_run.m
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéËÄ ÈËÁ³Ê¶±ð\accurancy.m
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéËÄ ÈËÁ³Ê¶±ð\classify.m
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéËÄ ÈËÁ³Ê¶±ð\setdivi.m
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéËÄ ÈËÁ³Ê¶±ð\step.m
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéËÄ ÈËÁ³Ê¶±ð\step1.m
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéËÄ ÈËÁ³Ê¶±ð\step2.m
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéËÄ ÈËÁ³Ê¶±ð\step3.m
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéËÄ ÈËÁ³Ê¶±ð\step3_1.m
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéËÄ ÈËÁ³Ê¶±ð\step3_2.m
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéËÄ ÈËÁ³Ê¶±ð\stepstep.m
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéËÄ ÈËÁ³Ê¶±ð\test.m
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéËÄ ÈËÁ³Ê¶±ð\train.m
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒä¸€ å›¾åƒå¤„ç†\matlab\Untitled.m
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒä¸€ å›¾åƒå¤„ç†\matlab\Untitled2.m
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒä¸€ å›¾åƒå¤„ç†\matlab\Untitled3.m
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒä¸€ å›¾åƒå¤„ç†\matlab\Untitled4.m
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒä¸‰ åŠ¨æ€è§†è§‰æ ‡ç­¾å®šä½ï¼ˆè¿åŠ¨ç›®æ ‡åˆ†å‰²ï¼‰\mixture_gaussians.m
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒä¸‰ åŠ¨æ€è§†è§‰æ ‡ç­¾å®šä½ï¼ˆè¿åŠ¨ç›®æ ‡åˆ†å‰²ï¼‰\single_gaussians.m
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\msrcr.m
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\msrcr_run.m
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒå›› äººè„¸è¯†åˆ«\accurancy.m
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒå›› äººè„¸è¯†åˆ«\classify.m
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒå›› äººè„¸è¯†åˆ«\setdivi.m
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒå›› äººè„¸è¯†åˆ«\step.m
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒå›› äººè„¸è¯†åˆ«\step1.m
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒå›› äººè„¸è¯†åˆ«\step2.m
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒå›› äººè„¸è¯†åˆ«\step3.m
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒå›› äººè„¸è¯†åˆ«\step3_1.m
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒå›› äººè„¸è¯†åˆ«\step3_2.m
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒå›› äººè„¸è¯†åˆ«\stepstep.m
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒå›› äººè„¸è¯†åˆ«\test.m
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒå›› äººè„¸è¯†åˆ«\train.m
 ..\MCM2019\grid.py
 ..\MCM2019\grid_main.py
 ..\MCM2019\grid_roadfill.py
@@ -71,37 +71,37 @@
 ..\pylifter\recycle\xlxsDatetimeToTuple.py
 ..\pylifter\test\test.py
 ..\pylifter\test\test0.py
-..\´úÂëÁ¿Í³¼Æ\²éÕÒÈ«²¿ÎÄ¼þ.py
-..\´úÂëÁ¿Í³¼Æ\²éÕÒ³ÌÐòÎÄ¼þ.py
-..\´úÂëÁ¿Í³¼Æ\Í³¼Æ³ÌÐòÎÄ¼þ.py
-..\´úÂëÁ¿Í³¼Æ\×ÛºÏÍ³¼Æ½á¹û.py
-..\´úÂëÁ¿Í³¼Æ\²¿·ÖÍ³¼Æ.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\×÷Òµ\HSV.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\×÷Òµ\main.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\×÷Òµ\RGB.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\×÷Òµ\test.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéÒ» Í¼Ïñ´¦Àí\funs.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéÒ» Í¼Ïñ´¦Àí\test.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéÒ» Í¼Ïñ´¦Àí\test1_1.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéÒ» Í¼Ïñ´¦Àí\test1_2.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéÒ» Í¼Ïñ´¦Àí\test2_1.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéÒ» Í¼Ïñ´¦Àí\test3_1.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéÈý ¶¯Ì¬ÊÓ¾õ±êÇ©¶¨Î»£¨ÔË¶¯Ä¿±ê·Ö¸î£©\frame.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéÈý ¶¯Ì¬ÊÓ¾õ±êÇ©¶¨Î»£¨ÔË¶¯Ä¿±ê·Ö¸î£©\Ö¡²î.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéÈý ¶¯Ì¬ÊÓ¾õ±êÇ©¶¨Î»£¨ÔË¶¯Ä¿±ê·Ö¸î£©\Ê±¼äÆ½¾ù.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑé¶þ ¾²Ì¬Í¼Ïñ·Ö¸î\add.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑé¶þ ¾²Ì¬Í¼Ïñ·Ö¸î\bias.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑé¶þ ¾²Ì¬Í¼Ïñ·Ö¸î\drop_1.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑé¶þ ¾²Ì¬Í¼Ïñ·Ö¸î\drop_2.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑé¶þ ¾²Ì¬Í¼Ïñ·Ö¸î\drop_center.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑé¶þ ¾²Ì¬Í¼Ïñ·Ö¸î\equalizeHist.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑé¶þ ¾²Ì¬Í¼Ïñ·Ö¸î\kmeans.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑé¶þ ¾²Ì¬Í¼Ïñ·Ö¸î\open_1.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑé¶þ ¾²Ì¬Í¼Ïñ·Ö¸î\open_2.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑé¶þ ¾²Ì¬Í¼Ïñ·Ö¸î\point_to.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑé¶þ ¾²Ì¬Í¼Ïñ·Ö¸î\R_channel.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑé¶þ ¾²Ì¬Í¼Ïñ·Ö¸î\threshold.py
-..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊý×ÖÍ¼Ïñ´¦Àí¿Î)³ÌÐò\ÊµÑéËÄ ÈËÁ³Ê¶±ð\test.py
+..\ä»£ç é‡ç»Ÿè®¡\æŸ¥æ‰¾å…¨éƒ¨æ–‡ä»¶.py
+..\ä»£ç é‡ç»Ÿè®¡\æŸ¥æ‰¾ç¨‹åºæ–‡ä»¶.py
+..\ä»£ç é‡ç»Ÿè®¡\ç»Ÿè®¡ç¨‹åºæ–‡ä»¶.py
+..\ä»£ç é‡ç»Ÿè®¡\ç»¼åˆç»Ÿè®¡ç»“æžœ.py
+..\ä»£ç é‡ç»Ÿè®¡\éƒ¨åˆ†ç»Ÿè®¡.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\ä½œä¸š\HSV.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\ä½œä¸š\main.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\ä½œä¸š\RGB.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\ä½œä¸š\test.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒä¸€ å›¾åƒå¤„ç†\funs.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒä¸€ å›¾åƒå¤„ç†\test.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒä¸€ å›¾åƒå¤„ç†\test1_1.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒä¸€ å›¾åƒå¤„ç†\test1_2.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒä¸€ å›¾åƒå¤„ç†\test2_1.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒä¸€ å›¾åƒå¤„ç†\test3_1.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒä¸‰ åŠ¨æ€è§†è§‰æ ‡ç­¾å®šä½ï¼ˆè¿åŠ¨ç›®æ ‡åˆ†å‰²ï¼‰\frame.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒä¸‰ åŠ¨æ€è§†è§‰æ ‡ç­¾å®šä½ï¼ˆè¿åŠ¨ç›®æ ‡åˆ†å‰²ï¼‰\å¸§å·®.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒä¸‰ åŠ¨æ€è§†è§‰æ ‡ç­¾å®šä½ï¼ˆè¿åŠ¨ç›®æ ‡åˆ†å‰²ï¼‰\æ—¶é—´å¹³å‡.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\add.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\bias.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\drop_1.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\drop_2.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\drop_center.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\equalizeHist.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\kmeans.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\open_1.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\open_2.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\point_to.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\R_channel.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\threshold.py
+..\è§†è§‰ç‰©è”ç½‘(å…¶å®žæ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®žéªŒå›› äººè„¸è¯†åˆ«\test.py
 ..\JFX1\src\main\java\HelloFX\Controllers.java
 ..\JFX1\src\main\java\HelloFX\Main.java
 ..\JlifterSimulater\disabled\Jlifter.java
@@ -121,7 +121,7 @@
 ..\DataStruct1\DataStruct1\CDataString.h
 ..\DataStruct1\DataStruct1\DataStruct1.cpp
 ..\DataStruct1\DataStruct1\DataStruct1.h
-..\DataStruct1\DataStruct1\È«¾Ö±äÁ¿.cpp
+..\DataStruct1\DataStruct1\å…¨å±€å˜é‡.cpp
 ..\Feistel\Feistel\Feistel.cpp
 ..\GFFViewerSDI v2\GFFViewerSDI v2\CDataString.h
 ..\GFFViewerSDI v2\GFFViewerSDI v2\ClassGene.h
@@ -135,26 +135,26 @@
 ..\SDGraph\SDGraph\CGraph.h
 ..\SDGraph\SDGraph\SDGraph.cpp
 ..\SDGraph\SDGraph\SDGraph.h
-..\SDGraph\SDGraph\È«¾Ö±äÁ¿.cpp
+..\SDGraph\SDGraph\å…¨å±€å˜é‡.cpp
 ..\SortTest\SortTest\BubbleSort.h
 ..\SortTest\SortTest\InsertSort.h
 ..\SortTest\SortTest\MergeSort.h
 ..\SortTest\SortTest\SelectSort.h
 ..\SortTest\SortTest\SortTest.cpp
 ..\SortTest\SortTest\SortTest.h
-..\SortTest\SortTest\Ô´.cpp
-..\SortTest\SortTest\»æÍ¼º¯Êý.cpp
-..\TCPIPÊµÑé¿Î³ÌÐò¼¯\TCP6\TCP6\TCP6.cpp
-..\TCPIPÊµÑé¿Î³ÌÐò¼¯\TCP7\TCP7\ping.h
-..\TCPIPÊµÑé¿Î³ÌÐò¼¯\TCP7\TCP7\TCP7.cpp
-..\TCPIPÊµÑé¿Î³ÌÐò¼¯\TCPclient\TCPclient\TCPclient.cpp
-..\TCPIPÊµÑé¿Î³ÌÐò¼¯\TCPclient1\TCPclient\TCPclient.cpp
-..\TCPIPÊµÑé¿Î³ÌÐò¼¯\TCPserver\TCPserver\TCPserver.cpp
-..\TCPIPÊµÑé¿Î³ÌÐò¼¯\TCPserver1\TCPserver\TCPserver.cpp
-..\TCPIPÊµÑé¿Î³ÌÐò¼¯\UDPclient\TCPclient\TCPclient.cpp
-..\TCPIPÊµÑé¿Î³ÌÐò¼¯\UDPclient1\TCPclient\TCPclient.cpp
-..\TCPIPÊµÑé¿Î³ÌÐò¼¯\UDPserver\TCPserver\TCPserver.cpp
-..\TCPIPÊµÑé¿Î³ÌÐò¼¯\UDPserver1\TCPserver\TCPserver.cpp
+..\SortTest\SortTest\æº.cpp
+..\SortTest\SortTest\ç»˜å›¾å‡½æ•°.cpp
+..\TCPIPå®žéªŒè¯¾ç¨‹åºé›†\TCP6\TCP6\TCP6.cpp
+..\TCPIPå®žéªŒè¯¾ç¨‹åºé›†\TCP7\TCP7\ping.h
+..\TCPIPå®žéªŒè¯¾ç¨‹åºé›†\TCP7\TCP7\TCP7.cpp
+..\TCPIPå®žéªŒè¯¾ç¨‹åºé›†\TCPclient\TCPclient\TCPclient.cpp
+..\TCPIPå®žéªŒè¯¾ç¨‹åºé›†\TCPclient1\TCPclient\TCPclient.cpp
+..\TCPIPå®žéªŒè¯¾ç¨‹åºé›†\TCPserver\TCPserver\TCPserver.cpp
+..\TCPIPå®žéªŒè¯¾ç¨‹åºé›†\TCPserver1\TCPserver\TCPserver.cpp
+..\TCPIPå®žéªŒè¯¾ç¨‹åºé›†\UDPclient\TCPclient\TCPclient.cpp
+..\TCPIPå®žéªŒè¯¾ç¨‹åºé›†\UDPclient1\TCPclient\TCPclient.cpp
+..\TCPIPå®žéªŒè¯¾ç¨‹åºé›†\UDPserver\TCPserver\TCPserver.cpp
+..\TCPIPå®žéªŒè¯¾ç¨‹åºé›†\UDPserver1\TCPserver\TCPserver.cpp
 ..\ThreadWitnForm\DLLs\dllmain.cpp
 ..\ThreadWitnForm\DLLs\DLLs.cpp
 ..\ThreadWitnForm\DLLs\DLLs.h
@@ -162,17 +162,17 @@
 ..\TreeTest\TreeTest\CGene.h
 ..\TreeTest\TreeTest\TreeTest.cpp
 ..\TreeTest\TreeTest\TreeTest.h
-..\TreeTest\TreeTest\È«¾Ö±äÁ¿.cpp
-..\Á÷Ë®µÆ\Users\Src\app_hooks.c
-..\Á÷Ë®µÆ\Users\Src\bsp.c
-..\Á÷Ë®µÆ\Users\Src\main.c
-..\Ëã·¨ÊµÑé¿Î³ÌÐò¼¯\alg2\alg2\alg2.cpp
-..\Ëã·¨ÊµÑé¿Î³ÌÐò¼¯\alg3\alg3\alg3.cpp
-..\Ëã·¨ÊµÑé¿Î³ÌÐò¼¯\alg4\alg4\alg4.cpp
-..\Ëã·¨ÊµÑé¿Î³ÌÐò¼¯\alg4-1\alg4-1\alg4-1.cpp
+..\TreeTest\TreeTest\å…¨å±€å˜é‡.cpp
+..\æµæ°´ç¯\Users\Src\app_hooks.c
+..\æµæ°´ç¯\Users\Src\bsp.c
+..\æµæ°´ç¯\Users\Src\main.c
+..\ç®—æ³•å®žéªŒè¯¾ç¨‹åºé›†\alg2\alg2\alg2.cpp
+..\ç®—æ³•å®žéªŒè¯¾ç¨‹åºé›†\alg3\alg3\alg3.cpp
+..\ç®—æ³•å®žéªŒè¯¾ç¨‹åºé›†\alg4\alg4\alg4.cpp
+..\ç®—æ³•å®žéªŒè¯¾ç¨‹åºé›†\alg4-1\alg4-1\alg4-1.cpp
 ..\FileTree\FileTree\File.cs
 ..\FileTree\FileTree\FileSystem.cs
 ..\FileTree\FileTree\GlobalClass.cs
 ..\FileTree\FileTree\Program.cs
-..\TCPIPÊµÑé¿Î³ÌÐò¼¯\TCPclient5\TCPclient5\Program.cs
-..\TCPIPÊµÑé¿Î³ÌÐò¼¯\TCPserver5\TCPserver5\Program.cs
+..\TCPIPå®žéªŒè¯¾ç¨‹åºé›†\TCPclient5\TCPclient5\Program.cs
+..\TCPIPå®žéªŒè¯¾ç¨‹åºé›†\TCPserver5\TCPserver5\Program.cs

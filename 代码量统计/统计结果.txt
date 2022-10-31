@@ -1,91 +1,91 @@
 3	:	..\pylifter\Dlltest\dlltest.py
 3	:	..\pylifter\test\test0.py
-4	:	..\MatlabNN\´øÓĞÆ«ÖÃµÄÉñ¾­ÍøÂç\activate.m
-4	:	..\MatlabNN\´øÓĞÆ«ÖÃµÄÉñ¾­ÍøÂç\NetworkErrors.m
+4	:	..\MatlabNN\å¸¦æœ‰åç½®çš„ç¥ç»ç½‘ç»œ\activate.m
+4	:	..\MatlabNN\å¸¦æœ‰åç½®çš„ç¥ç»ç½‘ç»œ\NetworkErrors.m
 4	:	..\GFFViewerSDI v2\GFFViewerSDI v2\varible.cpp
 4	:	..\ThreadWitnForm\DLLs\DLLs.h
-5	:	..\MatlabNN\ÎŞÆ«ÖÃµÄÉñ¾­ÍøÂç\NetworkCosts.m
+5	:	..\MatlabNN\æ— åç½®çš„ç¥ç»ç½‘ç»œ\NetworkCosts.m
 5	:	..\pylifter\BigData\data_read.m
-5	:	..\DataStruct1\DataStruct1\È«¾Ö±äÁ¿.cpp
-5	:	..\TreeTest\TreeTest\È«¾Ö±äÁ¿.cpp
+5	:	..\DataStruct1\DataStruct1\å…¨å±€å˜é‡.cpp
+5	:	..\TreeTest\TreeTest\å…¨å±€å˜é‡.cpp
 6	:	..\MatlabNN\test_func2.m
-6	:	..\MatlabNN\´øÓĞÆ«ÖÃµÄÉñ¾­ÍøÂç\layer.m
-6	:	..\MatlabNN\ÎŞÆ«ÖÃµÄÉñ¾­ÍøÂç\layer.m
-6	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéÒ» Í¼Ïñ´¦Àí\test1_1.py
+6	:	..\MatlabNN\å¸¦æœ‰åç½®çš„ç¥ç»ç½‘ç»œ\layer.m
+6	:	..\MatlabNN\æ— åç½®çš„ç¥ç»ç½‘ç»œ\layer.m
+6	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒä¸€ å›¾åƒå¤„ç†\test1_1.py
 7	:	..\MatlabNN\diff_activate.m
-7	:	..\MatlabNN\ÎŞÆ«ÖÃµÄÉñ¾­ÍøÂç\Networkinit.m
+7	:	..\MatlabNN\æ— åç½®çš„ç¥ç»ç½‘ç»œ\Networkinit.m
 7	:	..\pylifter\recycle\xlsxDraw.py
-7	:	..\´úÂëÁ¿Í³¼Æ\×ÛºÏÍ³¼Æ½á¹û.py
-7	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑé¶ş ¾²Ì¬Í¼Ïñ·Ö¸î\add.py
-8	:	..\MatlabNN\ÎŞÆ«ÖÃµÄÉñ¾­ÍøÂç\NetworkBackPropagationOnce.m
-8	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑé¶ş ¾²Ì¬Í¼Ïñ·Ö¸î\msrcr_run.m
+7	:	..\ä»£ç é‡ç»Ÿè®¡\ç»¼åˆç»Ÿè®¡ç»“æœ.py
+7	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\add.py
+8	:	..\MatlabNN\æ— åç½®çš„ç¥ç»ç½‘ç»œ\NetworkBackPropagationOnce.m
+8	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\msrcr_run.m
 9	:	..\MatlabNN\activate.m
-9	:	..\MatlabNN\´øÓĞÆ«ÖÃµÄÉñ¾­ÍøÂç\NetworkCalculate.m
-9	:	..\MatlabNN\ÎŞÆ«ÖÃµÄÉñ¾­ÍøÂç\NetworkCalculate.m
-10	:	..\MatlabNN\´øÓĞÆ«ÖÃµÄÉñ¾­ÍøÂç\Networkinit.m
-10	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéËÄ ÈËÁ³Ê¶±ğ\step3_2.m
-10	:	..\´úÂëÁ¿Í³¼Æ\²¿·ÖÍ³¼Æ.py
-10	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\×÷Òµ\test.py
-10	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑé¶ş ¾²Ì¬Í¼Ïñ·Ö¸î\R_channel.py
-11	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéÒ» Í¼Ïñ´¦Àí\matlab\Untitled.m
-11	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéÒ» Í¼Ïñ´¦Àí\matlab\Untitled3.m
-11	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéÒ» Í¼Ïñ´¦Àí\matlab\Untitled4.m
-11	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéËÄ ÈËÁ³Ê¶±ğ\step3.m
+9	:	..\MatlabNN\å¸¦æœ‰åç½®çš„ç¥ç»ç½‘ç»œ\NetworkCalculate.m
+9	:	..\MatlabNN\æ— åç½®çš„ç¥ç»ç½‘ç»œ\NetworkCalculate.m
+10	:	..\MatlabNN\å¸¦æœ‰åç½®çš„ç¥ç»ç½‘ç»œ\Networkinit.m
+10	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒå›› äººè„¸è¯†åˆ«\step3_2.m
+10	:	..\ä»£ç é‡ç»Ÿè®¡\éƒ¨åˆ†ç»Ÿè®¡.py
+10	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\ä½œä¸š\test.py
+10	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\R_channel.py
+11	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒä¸€ å›¾åƒå¤„ç†\matlab\Untitled.m
+11	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒä¸€ å›¾åƒå¤„ç†\matlab\Untitled3.m
+11	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒä¸€ å›¾åƒå¤„ç†\matlab\Untitled4.m
+11	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒå›› äººè„¸è¯†åˆ«\step3.m
 11	:	..\pylifter\recycle\ReadData_sqlalchemy.py
-12	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑé¶ş ¾²Ì¬Í¼Ïñ·Ö¸î\equalizeHist.py
+12	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\equalizeHist.py
 13	:	..\MatlabNN\test_func.m
 13	:	..\pylifter\BigData\data_deal.m
-13	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéËÄ ÈËÁ³Ê¶±ğ\classify.m
+13	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒå›› äººè„¸è¯†åˆ«\classify.m
 15	:	..\MatlabNN\test_script_continue.m
 15	:	..\pylifter\recycle\RecordToTable.py
-15	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑé¶ş ¾²Ì¬Í¼Ïñ·Ö¸î\open_2.py
+15	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\open_2.py
 15	:	..\JlifterSimulater\src\MyLifter.java
 16	:	..\pylifter\recycle\xlsxDrawData.py
 16	:	..\JlifterSimulater\src\Jlifter\Conditions.java
-17	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéËÄ ÈËÁ³Ê¶±ğ\step3_1.m
+17	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒå›› äººè„¸è¯†åˆ«\step3_1.m
 17	:	..\GFFViewerSDI v2\GFFViewerSDI v2\CDataString.h
 18	:	..\pylifter\BigData\data_classify.m
 18	:	..\JFX1\src\main\java\HelloFX\Main.java
 18	:	..\JlifterSimulater\src\Jlifter\Order.java
-19	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéÒ» Í¼Ïñ´¦Àí\matlab\Untitled2.m
+19	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒä¸€ å›¾åƒå¤„ç†\matlab\Untitled2.m
 19	:	..\pylifter\main.py
-19	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑé¶ş ¾²Ì¬Í¼Ïñ·Ö¸î\drop_center.py
+19	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\drop_center.py
 19	:	..\PriorityWorkWithForm\PriorityDll\dllmain.cpp
 19	:	..\ThreadWitnForm\DLLs\dllmain.cpp
 19	:	..\FileTree\FileTree\Program.cs
-19	:	..\TCPIPÊµÑé¿Î³ÌĞò¼¯\TCPclient5\TCPclient5\Program.cs
-20	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéËÄ ÈËÁ³Ê¶±ğ\accurancy.m
-20	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéËÄ ÈËÁ³Ê¶±ğ\stepstep.m
+19	:	..\TCPIPå®éªŒè¯¾ç¨‹åºé›†\TCPclient5\TCPclient5\Program.cs
+20	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒå›› äººè„¸è¯†åˆ«\accurancy.m
+20	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒå›› äººè„¸è¯†åˆ«\stepstep.m
 20	:	..\pylifter\recycle\exceltest.py
-20	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑé¶ş ¾²Ì¬Í¼Ïñ·Ö¸î\kmeans.py
-21	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéËÄ ÈËÁ³Ê¶±ğ\step1.m
-21	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéËÄ ÈËÁ³Ê¶±ğ\test.m
+20	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\kmeans.py
+21	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒå›› äººè„¸è¯†åˆ«\step1.m
+21	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒå›› äººè„¸è¯†åˆ«\test.m
 21	:	..\pylifter\recycle\xlxsDatetimeToTuple.py
-21	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéÒ» Í¼Ïñ´¦Àí\test.py
-21	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑé¶ş ¾²Ì¬Í¼Ïñ·Ö¸î\drop_2.py
-21	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑé¶ş ¾²Ì¬Í¼Ïñ·Ö¸î\open_1.py
+21	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒä¸€ å›¾åƒå¤„ç†\test.py
+21	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\drop_2.py
+21	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\open_1.py
 21	:	..\PriorityWorkWithForm\PriorityDll\PriorityDll.h
-22	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑé¶ş ¾²Ì¬Í¼Ïñ·Ö¸î\drop_1.py
+22	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\drop_1.py
 22	:	..\DataStruct1\DataStruct1\CDataString.h
-24	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéËÄ ÈËÁ³Ê¶±ğ\step.m
-25	:	..\TCPIPÊµÑé¿Î³ÌĞò¼¯\TCPserver5\TCPserver5\Program.cs
+24	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒå›› äººè„¸è¯†åˆ«\step.m
+25	:	..\TCPIPå®éªŒè¯¾ç¨‹åºé›†\TCPserver5\TCPserver5\Program.cs
 26	:	..\MCM2019\grid.py
 26	:	..\pylifter\Custom.py
-26	:	..\´úÂëÁ¿Í³¼Æ\²éÕÒÈ«²¿ÎÄ¼ş.py
-26	:	..\´úÂëÁ¿Í³¼Æ\Í³¼Æ³ÌĞòÎÄ¼ş.py
-26	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéÈı ¶¯Ì¬ÊÓ¾õ±êÇ©¶¨Î»£¨ÔË¶¯Ä¿±ê·Ö¸î£©\frame.py
+26	:	..\ä»£ç é‡ç»Ÿè®¡\æŸ¥æ‰¾å…¨éƒ¨æ–‡ä»¶.py
+26	:	..\ä»£ç é‡ç»Ÿè®¡\ç»Ÿè®¡ç¨‹åºæ–‡ä»¶.py
+26	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒä¸‰ åŠ¨æ€è§†è§‰æ ‡ç­¾å®šä½ï¼ˆè¿åŠ¨ç›®æ ‡åˆ†å‰²ï¼‰\frame.py
 26	:	..\SortTest\SortTest\MergeSort.h
 27	:	..\pylifter\recycle\xlsxReadData.py
-27	:	..\SDGraph\SDGraph\È«¾Ö±äÁ¿.cpp
+27	:	..\SDGraph\SDGraph\å…¨å±€å˜é‡.cpp
 28	:	..\pylifter\BigData\act.m
 28	:	..\pylifter\BigData\acts.m
 28	:	..\pylifter\recycle\SQLtest_v2.py
 29	:	..\MatlabNN\test_script2.m
 29	:	..\pylifter\recycle\SQLtest_v2.1.py
-30	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑé¶ş ¾²Ì¬Í¼Ïñ·Ö¸î\threshold.py
+30	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\threshold.py
 31	:	..\MatlabNN\test_script.m
-31	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéÈı ¶¯Ì¬ÊÓ¾õ±êÇ©¶¨Î»£¨ÔË¶¯Ä¿±ê·Ö¸î£©\single_gaussians.m
-31	:	..\Ëã·¨ÊµÑé¿Î³ÌĞò¼¯\alg3\alg3\alg3.cpp
+31	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒä¸‰ åŠ¨æ€è§†è§‰æ ‡ç­¾å®šä½ï¼ˆè¿åŠ¨ç›®æ ‡åˆ†å‰²ï¼‰\single_gaussians.m
+31	:	..\ç®—æ³•å®éªŒè¯¾ç¨‹åºé›†\alg3\alg3\alg3.cpp
 32	:	..\pylifter\BigData\data_select.m
 32	:	..\Calculate1\Calculate1\Calculate1.h
 32	:	..\CalculatorStack\CalculatorStack\CalculatorStack.h
@@ -95,76 +95,76 @@
 32	:	..\SortTest\SortTest\SortTest.h
 32	:	..\TreeTest\TreeTest\TreeTest.h
 32	:	..\FileTree\FileTree\GlobalClass.cs
-34	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéËÄ ÈËÁ³Ê¶±ğ\setdivi.m
+34	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒå›› äººè„¸è¯†åˆ«\setdivi.m
 34	:	..\MCM2019\grid_main.py
-35	:	..\MatlabNN\ÎŞÆ«ÖÃµÄÉñ¾­ÍøÂç\NetworkBackPropagation.m
-35	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéÈı ¶¯Ì¬ÊÓ¾õ±êÇ©¶¨Î»£¨ÔË¶¯Ä¿±ê·Ö¸î£©\Ö¡²î.py
-35	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑé¶ş ¾²Ì¬Í¼Ïñ·Ö¸î\point_to.py
+35	:	..\MatlabNN\æ— åç½®çš„ç¥ç»ç½‘ç»œ\NetworkBackPropagation.m
+35	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒä¸‰ åŠ¨æ€è§†è§‰æ ‡ç­¾å®šä½ï¼ˆè¿åŠ¨ç›®æ ‡åˆ†å‰²ï¼‰\å¸§å·®.py
+35	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\point_to.py
 35	:	..\SortTest\SortTest\SelectSort.h
-35	:	..\TCPIPÊµÑé¿Î³ÌĞò¼¯\TCP7\TCP7\ping.h
+35	:	..\TCPIPå®éªŒè¯¾ç¨‹åºé›†\TCP7\TCP7\ping.h
 36	:	..\pylifter\CreateTable.py
-36	:	..\SortTest\SortTest\»æÍ¼º¯Êı.cpp
-37	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéËÄ ÈËÁ³Ê¶±ğ\step2.m
+36	:	..\SortTest\SortTest\ç»˜å›¾å‡½æ•°.cpp
+37	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒå›› äººè„¸è¯†åˆ«\step2.m
 37	:	..\pylifter\test\test.py
 37	:	..\Feistel\Feistel\Feistel.cpp
-38	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéÈı ¶¯Ì¬ÊÓ¾õ±êÇ©¶¨Î»£¨ÔË¶¯Ä¿±ê·Ö¸î£©\Ê±¼äÆ½¾ù.py
-40	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéËÄ ÈËÁ³Ê¶±ğ\train.m
+38	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒä¸‰ åŠ¨æ€è§†è§‰æ ‡ç­¾å®šä½ï¼ˆè¿åŠ¨ç›®æ ‡åˆ†å‰²ï¼‰\æ—¶é—´å¹³å‡.py
+40	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒå›› äººè„¸è¯†åˆ«\train.m
 40	:	..\JlifterSimulater\src\MySimulator_FCFStest.java
-40	:	..\TCPIPÊµÑé¿Î³ÌĞò¼¯\UDPclient\TCPclient\TCPclient.cpp
+40	:	..\TCPIPå®éªŒè¯¾ç¨‹åºé›†\UDPclient\TCPclient\TCPclient.cpp
 42	:	..\MCM2019\grid_roadfill.py
 44	:	..\MatlabNN\test_script_movie.m
-47	:	..\Ëã·¨ÊµÑé¿Î³ÌĞò¼¯\alg2\alg2\alg2.cpp
-49	:	..\TCPIPÊµÑé¿Î³ÌĞò¼¯\TCP6\TCP6\TCP6.cpp
-49	:	..\TCPIPÊµÑé¿Î³ÌĞò¼¯\UDPserver\TCPserver\TCPserver.cpp
-53	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\×÷Òµ\main.py
+47	:	..\ç®—æ³•å®éªŒè¯¾ç¨‹åºé›†\alg2\alg2\alg2.cpp
+49	:	..\TCPIPå®éªŒè¯¾ç¨‹åºé›†\TCP6\TCP6\TCP6.cpp
+49	:	..\TCPIPå®éªŒè¯¾ç¨‹åºé›†\UDPserver\TCPserver\TCPserver.cpp
+53	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\ä½œä¸š\main.py
 54	:	..\MatlabNN\test_script_graph.m
-55	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéÒ» Í¼Ïñ´¦Àí\funs.py
-55	:	..\SortTest\SortTest\Ô´.cpp
+55	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒä¸€ å›¾åƒå¤„ç†\funs.py
+55	:	..\SortTest\SortTest\æº.cpp
 55	:	..\TreeTest\TreeTest\CDataString.h
-58	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑé¶ş ¾²Ì¬Í¼Ïñ·Ö¸î\msrcr.m
-60	:	..\TCPIPÊµÑé¿Î³ÌĞò¼¯\TCPclient1\TCPclient\TCPclient.cpp
-63	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑé¶ş ¾²Ì¬Í¼Ïñ·Ö¸î\bias.py
-64	:	..\Á÷Ë®µÆ\Users\Src\main.c
+58	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\msrcr.m
+60	:	..\TCPIPå®éªŒè¯¾ç¨‹åºé›†\TCPclient1\TCPclient\TCPclient.cpp
+63	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒäºŒ é™æ€å›¾åƒåˆ†å‰²\bias.py
+64	:	..\æµæ°´ç¯\Users\Src\main.c
 65	:	..\mystery_hack\mystery_hack\mystery_hack.cpp
-67	:	..\TCPIPÊµÑé¿Î³ÌĞò¼¯\TCPclient\TCPclient\TCPclient.cpp
+67	:	..\TCPIPå®éªŒè¯¾ç¨‹åºé›†\TCPclient\TCPclient\TCPclient.cpp
 69	:	..\pylifter\ReadData.py
 69	:	..\JlifterSimulater\src\Main.java
-70	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéÒ» Í¼Ïñ´¦Àí\test1_2.py
-71	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\×÷Òµ\RGB.py
+70	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒä¸€ å›¾åƒå¤„ç†\test1_2.py
+71	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\ä½œä¸š\RGB.py
 72	:	..\pylifter\encode.py
-72	:	..\Ëã·¨ÊµÑé¿Î³ÌĞò¼¯\alg4-1\alg4-1\alg4-1.cpp
-73	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\×÷Òµ\HSV.py
+72	:	..\ç®—æ³•å®éªŒè¯¾ç¨‹åºé›†\alg4-1\alg4-1\alg4-1.cpp
+73	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\ä½œä¸š\HSV.py
 73	:	..\SortTest\SortTest\BubbleSort.h
-74	:	..\Ëã·¨ÊµÑé¿Î³ÌĞò¼¯\alg4\alg4\alg4.cpp
-76	:	..\Á÷Ë®µÆ\Users\Src\bsp.c
+74	:	..\ç®—æ³•å®éªŒè¯¾ç¨‹åºé›†\alg4\alg4\alg4.cpp
+76	:	..\æµæ°´ç¯\Users\Src\bsp.c
 78	:	..\SortTest\SortTest\InsertSort.h
-78	:	..\TCPIPÊµÑé¿Î³ÌĞò¼¯\TCPserver1\TCPserver\TCPserver.cpp
-80	:	..\TCPIPÊµÑé¿Î³ÌĞò¼¯\UDPserver1\TCPserver\TCPserver.cpp
+78	:	..\TCPIPå®éªŒè¯¾ç¨‹åºé›†\TCPserver1\TCPserver\TCPserver.cpp
+80	:	..\TCPIPå®éªŒè¯¾ç¨‹åºé›†\UDPserver1\TCPserver\TCPserver.cpp
 81	:	..\pylifter\decode.py
-81	:	..\TCPIPÊµÑé¿Î³ÌĞò¼¯\TCPserver\TCPserver\TCPserver.cpp
+81	:	..\TCPIPå®éªŒè¯¾ç¨‹åºé›†\TCPserver\TCPserver\TCPserver.cpp
 87	:	..\Calculate1\Calculate1\Calculate1.cpp
-87	:	..\TCPIPÊµÑé¿Î³ÌĞò¼¯\UDPclient1\TCPclient\TCPclient.cpp
-91	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéËÄ ÈËÁ³Ê¶±ğ\test.py
+87	:	..\TCPIPå®éªŒè¯¾ç¨‹åºé›†\UDPclient1\TCPclient\TCPclient.cpp
+91	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒå›› äººè„¸è¯†åˆ«\test.py
 100	:	..\MCM2019\length.py
 101	:	..\TreeTest\TreeTest\TreeTest.cpp
 104	:	..\CalculatorStack\CalculatorStack\CalculatorStack.cpp
 105	:	..\JlifterSimulater\src\Jlifter\Jlifter_simulator.java
 108	:	..\DataStruct1\DataStruct1\DataStruct1.cpp
-114	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéÒ» Í¼Ïñ´¦Àí\test3_1.py
-116	:	..\´úÂëÁ¿Í³¼Æ\²éÕÒ³ÌĞòÎÄ¼ş.py
-117	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéÒ» Í¼Ïñ´¦Àí\test2_1.py
-117	:	..\Á÷Ë®µÆ\Users\Src\app_hooks.c
+114	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒä¸€ å›¾åƒå¤„ç†\test3_1.py
+116	:	..\ä»£ç é‡ç»Ÿè®¡\æŸ¥æ‰¾ç¨‹åºæ–‡ä»¶.py
+117	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒä¸€ å›¾åƒå¤„ç†\test2_1.py
+117	:	..\æµæ°´ç¯\Users\Src\app_hooks.c
 124	:	..\pylifter\DrawData.py
 124	:	..\FileTree\FileTree\FileSystem.cs
 154	:	..\SortTest\SortTest\SortTest.cpp
 160	:	..\CalculatorStack\CalculatorStack\calculatorCore.h
-161	:	..\ÊÓ¾õÎïÁªÍø(ÆäÊµÊÇÊı×ÖÍ¼Ïñ´¦Àí¿Î)³ÌĞò\ÊµÑéÈı ¶¯Ì¬ÊÓ¾õ±êÇ©¶¨Î»£¨ÔË¶¯Ä¿±ê·Ö¸î£©\mixture_gaussians.m
+161	:	..\è§†è§‰ç‰©è”ç½‘(å…¶å®æ˜¯æ•°å­—å›¾åƒå¤„ç†è¯¾)ç¨‹åº\å®éªŒä¸‰ åŠ¨æ€è§†è§‰æ ‡ç­¾å®šä½ï¼ˆè¿åŠ¨ç›®æ ‡åˆ†å‰²ï¼‰\mixture_gaussians.m
 164	:	..\SDGraph\SDGraph\SDGraph.cpp
 173	:	..\FileTree\FileTree\File.cs
 178	:	..\MatlabNN\Network2.m
 179	:	..\ThreadWitnForm\DLLs\DLLs.cpp
 185	:	..\GFFViewerSDI v2\GFFViewerSDI v2\GFFViewerSDI v2.cpp
-196	:	..\TCPIPÊµÑé¿Î³ÌĞò¼¯\TCP7\TCP7\TCP7.cpp
+196	:	..\TCPIPå®éªŒè¯¾ç¨‹åºé›†\TCP7\TCP7\TCP7.cpp
 204	:	..\MatlabNN\Network.m
 217	:	..\JlifterSimulater\src\Jlifter\Jlifter.java
 217	:	..\PriorityWorkWithForm\PriorityDll\PriorityDll.cpp
