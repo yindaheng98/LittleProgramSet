@@ -24,7 +24,7 @@ for dirs in os.walk('..\\'):
             fil=dirs[0]+'\\'+f
             files[lst[ftype]].append(fil)
 
-with open('all_files.txt','w') as f:
+with open('all_files.txt','w', encoding="utf8") as f:
     for ftype in files:
         for file in files[ftype]:
             f.writelines(file+'\n')

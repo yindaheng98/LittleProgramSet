@@ -24,10 +24,12 @@ fls = {i: [] for i in range(10000)}
 for ftype in files:
     for f in files[ftype]:
         c = count_lines(f)
+        if c not in fls:
+            continue
         fls[c].append(f)
         flines[ftype].append((c, f))
 
-with open('统计结果.txt', 'w') as f:
+with open('统计结果.txt', 'w', encoding="utf8") as f:
     for i in fls:
         for fp in fls[i]:
             f.writelines(str(i)+'\t:\t'+fp+'\n')

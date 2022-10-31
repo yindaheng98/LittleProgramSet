@@ -118,7 +118,7 @@ for dirs in os.walk('..\\'):
                 if(not is_except(fil.replace('\\','/'),file_excepts)):
                     files[lst[ftype]].append(fil)
 
-with open('selected_files.txt','w') as f:
+with open('selected_files.txt','w', encoding="utf8") as f:
     for ftype in files:
         for file in files[ftype]:
             f.writelines(file+'\n')
