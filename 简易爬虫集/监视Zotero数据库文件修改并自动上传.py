@@ -6,7 +6,7 @@ import subprocess
 PathToScript = os.path.dirname(sys.argv[0])
 PathToSqlite = os.path.join(PathToScript, "zotero.sqlite")
 PathToRecord = os.path.join(PathToScript, "zotero.sqlite.LastWriteTime.txt")
-RecordLastWriteTime = os.path.getmtime(PathToRecord)
+RecordLastWriteTime = os.path.getmtime(PathToRecord) if os.path.exists(PathToRecord) else 0
 LastWriteTime = os.path.getmtime(PathToSqlite)
 if RecordLastWriteTime == LastWriteTime:
     exit(0)
