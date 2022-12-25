@@ -9,6 +9,7 @@ PathToRecord = os.path.join(PathToScript, "zotero.sqlite.LastWriteTime.txt")
 RecordLastWriteTime = os.path.getmtime(PathToRecord) if os.path.exists(PathToRecord) else 0
 LastWriteTime = os.path.getmtime(PathToSqlite)
 if RecordLastWriteTime == LastWriteTime:
+    print(RecordLastWriteTime, "==", LastWriteTime)
     exit(0)
 subprocess.run([
     os.path.join(PathToScript, "rclone.exe"),
