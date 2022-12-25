@@ -1,5 +1,6 @@
-$PathToSqlite = "D:\Documents\Zotero\zotero.sqlite"
-$PathToRecord = "D:\Documents\Zotero\zotero.sqlite.LastWriteTime.txt"
+$PathToScript = (Split-Path -Parent $MyInvocation.MyCommand.Definition)
+$PathToSqlite = "$PathToScript\zotero.sqlite"
+$PathToRecord = "$PathToScript\zotero.sqlite.LastWriteTime.txt"
 $RecordLastWriteTime = (Get-ChildItem $PathToRecord).LastWriteTime
 $LastWriteTime = (Get-ChildItem $PathToSqlite).LastWriteTime
 if ($RecordLastWriteTime -eq $LastWriteTime) {
