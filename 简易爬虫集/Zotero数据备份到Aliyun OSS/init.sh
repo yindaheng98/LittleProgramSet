@@ -1,17 +1,19 @@
 #!/bin/bash
 apt-get install -y unzip
 ROOT=$(pwd)
-TEMP_ZIP=$ROOT/rclone.zip
+TEMP_ZIP=$ROOT/temp.zip
+
 wget --no-check-certificate https://downloads.rclone.org/v1.54.1/rclone-v1.54.1-linux-amd64.zip -O $TEMP_ZIP
 unzip -jo -d $ROOT $TEMP_ZIP
 chmod a+x $ROOT/rclone
+CONF=$ROOT/rclone.conf
 EXEC="$ROOT/rclone --config $CONF --log-level DEBUG"
+
 wget --no-check-certificate https://sqlite.org/2022/sqlite-tools-linux-x86-3400000.zip -O $TEMP_ZIP
 unzip -jo -d $ROOT $TEMP_ZIP
 chmod a+x $ROOT/sqlite3
 SQLT="$ROOT/sqlite3"
 
-CONF=$ROOT/rclone.conf
 cat > $CONF << EOF
 [oss]
 type = s3
