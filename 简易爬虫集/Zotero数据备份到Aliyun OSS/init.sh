@@ -33,4 +33,4 @@ user = ${username}
 pass = ${password}
 EOF
 chmod a+x $ROOT/rclone
-EXEC="$ROOT/rclone --config $CONF --log-level INFO"
+EXEC="$ROOT/rclone --config $CONF --log-level DEBUG"
