@@ -1,7 +1,8 @@
 import os
 import sys
 from datetime import datetime
-import subprocess
+from webdav4.client import Client
+from config import config
 
 PathToScript = os.path.dirname(sys.argv[0])
 PathToSqlite = os.path.join(PathToScript, "zotero.sqlite")
@@ -11,13 +12,8 @@ LastWriteTime = os.path.getmtime(PathToSqlite)
 if RecordLastWriteTime == LastWriteTime:
     print(RecordLastWriteTime, "==", LastWriteTime)
     exit(0)
-subprocess.run([
-    os.path.join(PathToScript, "rclone.exe"),
-    "--log-level", "DEBUG",
-    "copy",
-    PathToSqlite,
-    "jianguoyun:zotero"
-])
+client = Client(**config)
+client.upload_file(PathToSqlite, "zotero/zotero.sqlite", overwrite=True)
 with open(PathToRecord, "w", encoding='utf8') as f:
     f.write(str(datetime.fromtimestamp(LastWriteTime)))
 os.utime(PathToRecord, (LastWriteTime, LastWriteTime))
