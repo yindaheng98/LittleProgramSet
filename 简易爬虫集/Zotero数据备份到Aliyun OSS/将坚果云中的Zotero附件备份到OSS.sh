@@ -1,7 +1,8 @@
 #!/bin/bash -x
-source $(dirname ${BASH_SOURCE[0]})/init.sh
-$EXEC copy jianguoyun:zotero/zotero.sqlite ./
-for i in $(echo "select key from items;" | $SQLT ./zotero.sqlite); do
+ROOT=$(dirname ${BASH_SOURCE[0]})
+source $ROOT/init.sh
+$EXEC copy jianguoyun:zotero/zotero.sqlite $ROOT
+for i in $(echo "select key from items;" | $SQLT $ROOT/zotero.sqlite); do
     $EXEC ls jianguoyun:zotero/$i.zip
     if [$? -eq 0]; then
         $EXEC copy jianguoyun:zotero/$i.zip oss:zotero-backup/attachments
