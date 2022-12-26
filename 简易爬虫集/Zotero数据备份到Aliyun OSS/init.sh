@@ -1,5 +1,5 @@
 #!/bin/bash
-apt-get install -y unzip
+apt-get install -y unzip sqlite3
 ROOT=$(pwd)
 TEMP_ZIP=$ROOT/temp.zip
 
@@ -8,11 +8,6 @@ unzip -jo -d $ROOT $TEMP_ZIP
 chmod a+x $ROOT/rclone
 CONF=$ROOT/rclone.conf
 EXEC="$ROOT/rclone --config $CONF --log-level DEBUG"
-
-wget --no-check-certificate https://sqlite.org/2022/sqlite-tools-linux-x86-3400000.zip -O $TEMP_ZIP
-unzip -jo -d $ROOT $TEMP_ZIP
-chmod a+x $ROOT/sqlite3
-SQLT="$ROOT/sqlite3"
 
 cat > $CONF << EOF
 [oss]
