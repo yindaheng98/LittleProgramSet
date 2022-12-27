@@ -6,7 +6,7 @@ from config import config
 
 PathToScript = os.path.dirname(sys.argv[0])
 PathToSqlite = os.path.join(PathToScript, "zotero.sqlite")
-PathToRecord = os.path.join(PathToScript, "zotero.sqlite.LastWriteTime.txt")
+PathToRecord = os.path.join(PathToScript, "zotero.sqlite.LastSize.txt")
 
 
 try:
